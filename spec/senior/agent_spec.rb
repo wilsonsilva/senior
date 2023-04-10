@@ -1,19 +1,21 @@
 # frozen_string_literal: true
 
-RSpec.describe Senior do
-  describe '.auto_debug' do
+RSpec.describe Senior::Agent do
+  let(:agent) { described_class.new }
+
+  describe '#auto_debug' do
     it 'fixes a broken method' do
-      result = described_class.auto_debug(BrokenCode.method(:square), 2)
+      result = agent.auto_debug(BrokenCode.method(:square), 2)
 
       expect(result).to eq(4)
     end
   end
 
-  describe '.suggest_fix' do
+  describe '#suggest_fix' do
     it 'suggests a fix for a broken method' do
-      suggestion = described_class.suggest_fix(BrokenCode.method(:square), 2)
+      fix = agent.suggest_fix(BrokenCode.method(:square), 2)
 
-      expect(suggestion).to eq(
+      expect(fix).to eq(
         <<~PROMPT.chomp
           def self.square(n)
             n * n

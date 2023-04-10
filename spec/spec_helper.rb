@@ -22,9 +22,26 @@ require 'dotenv/load'
 require 'vcr'
 require 'webmock/rspec'
 
+Dir[File.expand_path('support/**/*.rb', __dir__)].each { |f| require f }
+
 VCR.configure do |config|
   config.cassette_library_dir = 'spec/cassettes'
   config.hook_into :webmock
+
+  config.filter_sensitive_data('<BEARER_TOKEN>') do |interaction|
+    auths = interaction.request.headers['Authorization'].first
+    if (match = auths.match(/^Bearer\s+([^,\s]+)/))
+      match.captures.first
+    end
+  end
+
+  config.filter_sensitive_data('<ORGANIZATION_ID>') do |interaction|
+    interaction.request.headers['Openai-Organization'].first
+  end
+
+  config.filter_sensitive_data('<ORGANIZATION_ID>') do |interaction|
+    interaction.response.headers['Openai-Organization'].first
+  end
 end
 
 RSpec.configure do |config|

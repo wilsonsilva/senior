@@ -6,6 +6,13 @@ AllCops:
   TargetRubyVersion: 3.2
   DisplayCopNames: true
   NewCops: enable
+  Exclude:
+    - spec/support/broken_code.rb
+
+# --------------------- Security ----------------------
+Security/Eval:
+  Exclude:
+    - lib/senior/agent.rb
 
 # ----------------------- Style -----------------------
 
@@ -28,6 +35,10 @@ Metrics/BlockLength:
   Exclude:
     - '**/*_spec.rb'
     - senior.gemspec
+
+Metrics/MethodLength:
+  Exclude:
+    - lib/senior/brains/open_ai.rb
 
 # ----------------------- RSpec -----------------------
 
