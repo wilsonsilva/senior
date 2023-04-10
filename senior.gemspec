@@ -50,4 +50,7 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'rubocop-rspec', '2.19'
   spec.add_development_dependency 'simplecov', '= 0.17' # the latest versions don't play well with code climate
   spec.add_development_dependency 'simplecov-console', '~> 0.9'
+  spec.add_development_dependency 'yard', '~> 0.9'
+  spec.add_development_dependency 'yard-junk', '~> 0.0.9'
+  spec.add_development_dependency 'yardstick', '~> 0.9'
 end
