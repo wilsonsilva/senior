@@ -13,6 +13,13 @@ SimpleCov.formatter = SimpleCov::Formatter::MultiFormatter.new(
 
 require 'senior'
 require 'dotenv/load'
+require 'vcr'
+require 'webmock/rspec'
+
+VCR.configure do |config|
+  config.cassette_library_dir = 'spec/cassettes'
+  config.hook_into :webmock
+end
 
 RSpec.configure do |config|
   # Enable flags like --only-failures and --next-failure
@@ -23,5 +30,11 @@ RSpec.configure do |config|
 
   config.expect_with :rspec do |c|
     c.syntax = :expect
+  end
+
+  config.around do |example|
+    VCR.use_cassette(example.metadata[:full_description]) do
+      example.run
+    end
   end
 end
