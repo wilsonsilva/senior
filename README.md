@@ -57,6 +57,13 @@ rake yard:junk                # Check the junk in your YARD Documentation
 rake yardstick_measure        # Measure docs in lib/**/*.rb with yardstick
 ```
 
+### Type checking
+
+This gem leverages [RBS](https://github.com/ruby/rbs), a language to describe the structure of Ruby programs. It is
+used to provide type checking and autocompletion in your editor. Run `bundle exec typeprof FILENAME` to generate
+an RBS definition for the given Ruby file. And validate all definitions using [Steep](https://github.com/soutaro/steep)
+with the command `bundle exec steep check`.
+
 ## Contributing
 
 Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/senior. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [code of conduct](https://github.com/[USERNAME]/senior/blob/main/CODE_OF_CONDUCT.md).
