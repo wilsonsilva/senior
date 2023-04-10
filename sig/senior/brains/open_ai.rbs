@@ -1,0 +1,14 @@
+module Senior
+  module Brains
+    class OpenAI
+      @open_ai_client: untyped
+
+      def suggest_fix: (erroneous_source: String, exception_backtrace: String) -> String
+
+      private
+
+      def open_ai_client: -> untyped
+      def request_completion: (String prompt, ?Integer max_tokens) -> String
+    end
+  end
+end

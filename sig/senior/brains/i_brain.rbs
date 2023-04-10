@@ -1,0 +1,3 @@
+interface _IBrain
+  def suggest_fix: (erroneous_source: String, exception_backtrace: String) -> String
+end

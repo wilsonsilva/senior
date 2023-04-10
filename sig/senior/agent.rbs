@@ -1,0 +1,11 @@
+module Senior
+  class Agent
+    def initialize: (?_IBrain brain) -> void
+    def auto_debug: (Method broken_method, untyped args, String? | nil broken_method_source) -> untyped
+    def suggest_fix: (Method broken_method, untyped args) -> String
+
+    private
+
+    attr_reader brain: _IBrain
+  end
+end

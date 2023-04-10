@@ -1,0 +1,29 @@
+module OpenAI
+  class Client
+    @files: untyped
+    @finetunes: untyped
+    @images: untyped
+    @models: untyped
+
+    def initialize: (?access_token: String|nil, ?organization_id: String|nil, ?uri_base: nil, ?request_timeout: nil) -> void
+    def chat: (?parameters: Hash[untyped, untyped]) -> untyped
+    def completions: (?parameters: Hash[untyped, untyped]) -> untyped
+    def edits: (?parameters: Hash[untyped, untyped]) -> untyped
+    def embeddings: (?parameters: Hash[untyped, untyped]) -> untyped
+    def files: -> untyped
+    def finetunes: -> untyped
+    def images: -> untyped
+    def models: -> untyped
+    def moderations: (?parameters: Hash[untyped, untyped]) -> untyped
+    def transcribe: (?parameters: Hash[untyped, untyped]) -> untyped
+    def translate: (?parameters: Hash[untyped, untyped]) -> untyped
+
+    def self.get: (path: untyped) -> untyped
+    def self.json_post: (path: String, parameters: Hash[untyped, untyped]) -> untyped
+    def self.multipart_post: (path: String, ?parameters: Hash[untyped, untyped]?) -> untyped
+    def self.delete: (path: untyped) -> untyped
+    def self.uri: (path: String) -> untyped
+    def self.headers: -> Hash[String, String]
+    def self.request_timeout: -> untyped
+  end
+end

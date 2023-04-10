@@ -1,0 +1,4 @@
+# Monkey patched by the gem method_source
+class Method
+  def source: () -> String
+end

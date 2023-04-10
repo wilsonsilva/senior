@@ -1,4 +1,12 @@
 module Senior
   VERSION: String
-  # See the writing guide of rbs: https://github.com/ruby/rbs#guides
+  self.@agent: Agent
+
+  def self.auto_debug: (Method broken_method, untyped args, String? | nil broken_method_source) -> untyped
+
+  def self.suggest_fix: (Method broken_method, untyped args) -> String
+
+  private
+
+  def self.agent: -> Agent
 end
