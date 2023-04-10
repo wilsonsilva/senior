@@ -1,10 +1,10 @@
 # Senior
 
-Provides AI-powered debugging and automatic suggestion of code fixes. It makes use of OpenAI's language model to analyze
-and modify the source code of broken methods, allowing them to be fixed automatically.
-
 [![Gem Version](https://badge.fury.io/rb/senior.svg)](https://badge.fury.io/rb/senior)
 [![Tests](https://github.com/wilsonsilva/senior/actions/workflows/main.yml/badge.svg)](https://github.com/wilsonsilva/senior/actions/workflows/main.yml)
+
+Provides AI-powered debugging and automatic suggestion of code fixes. It makes use of OpenAI's language model to analyze
+and modify the source code of broken methods, allowing them to be fixed automatically.
 
 ## Installation
 
