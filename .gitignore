@@ -14,3 +14,6 @@
 
 # Let the gemspec be the source of truth
 /Gemfile.lock
+
+# Dotenv secrets
+.env

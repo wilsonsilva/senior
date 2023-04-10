@@ -12,6 +12,7 @@ SimpleCov.formatter = SimpleCov::Formatter::MultiFormatter.new(
 )
 
 require 'senior'
+require 'dotenv/load'
 
 RSpec.configure do |config|
   # Enable flags like --only-failures and --next-failure
