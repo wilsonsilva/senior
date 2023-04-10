@@ -48,4 +48,6 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'rubocop', '~> 1.49'
   spec.add_development_dependency 'rubocop-rake', '~> 0.6'
   spec.add_development_dependency 'rubocop-rspec', '2.19'
+  spec.add_development_dependency 'simplecov', '= 0.17' # the latest versions don't play well with code climate
+  spec.add_development_dependency 'simplecov-console', '~> 0.9'
 end
