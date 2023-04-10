@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require_relative "senior/version"
+require_relative 'senior/version'
 
 # Encapsulates all the gem's logic
 module Senior
