@@ -2,6 +2,8 @@
 
 [![Gem Version](https://badge.fury.io/rb/senior.svg)](https://badge.fury.io/rb/senior)
 [![Tests](https://github.com/wilsonsilva/senior/actions/workflows/main.yml/badge.svg)](https://github.com/wilsonsilva/senior/actions/workflows/main.yml)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/87e6e2167d3283e3b79b/test_coverage)](https://codeclimate.com/github/wilsonsilva/senior/test_coverage)
+[![Maintainability](https://api.codeclimate.com/v1/badges/87e6e2167d3283e3b79b/maintainability)](https://codeclimate.com/github/wilsonsilva/senior/maintainability)
 
 Provides AI-powered debugging and automatic suggestion of code fixes. It makes use of OpenAI's language model to analyze
 and modify the source code of broken methods, allowing them to be fixed automatically.
