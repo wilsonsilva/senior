@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.email = ['wilson.dsigns@gmail.com']
 
   spec.summary = 'AI coding companion'
-  spec.description = "This gem provides a simple interface to OpenAI's GPT4 API for code repair. Given a piece of broken
+  spec.description = "This gem provides a simple interface to OpenAI's GPT API for code repair. Given a piece of broken
     code, the gem generates a corrected version."
 
   spec.homepage = 'https://github.com/wilsonsilva/senior'
