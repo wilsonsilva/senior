@@ -1,5 +1,7 @@
 # frozen_string_literal: true
 
+require_relative 'senior/errors'
+require_relative 'senior/configuration/main'
 require_relative 'senior/brains/open_ai'
 require_relative 'senior/agent'
 require_relative 'senior/version'
@@ -55,5 +57,33 @@ module Senior
   #
   def self.agent
     @agent ||= Agent.new
+  end
+
+  # Returns the configuration object for the Senior gem
+  #
+  # @api private
+  #
+  # @return [Senior::Configuration::Main] The configuration object for the Senior gem
+  #
+  def self.configuration
+    @configuration ||= Configuration::Main.new
+  end
+
+  # Provides a way to configure the Senior gem
+  #
+  # @api public
+  #
+  # @yield [configuration] A block to configure the Senior gem
+  # @yieldparam configuration [Senior::Configuration::Main] The configuration object for the Senior gem
+  #
+  # @example Configuring the Senior gem
+  #   Senior.configure do |config|
+  #     config.open_ai.access_token = 'your_openai_api_key'
+  #   end
+  #
+  # @return [void]
+  #
+  def self.configure
+    yield(configuration)
   end
 end

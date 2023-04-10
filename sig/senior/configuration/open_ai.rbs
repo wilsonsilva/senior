@@ -1,0 +1,26 @@
+module Senior
+  module Configuration
+    class OpenAI
+      DEFAULT_API_VERSION: String
+      DEFAULT_MAX_TOKENS: Integer
+      DEFAULT_MODEL: String
+      DEFAULT_N: Integer
+      DEFAULT_REQUEST_TIMEOUT: Integer
+      DEFAULT_TEMPERATURE: Float
+      DEFAULT_URI_BASE: String
+
+      attr_writer access_token: String?|nil
+      attr_accessor api_version: String
+      attr_accessor max_tokens: Integer
+      attr_accessor model: String
+      attr_accessor n: Integer
+      attr_accessor organization_id: String?|nil
+      attr_accessor request_timeout: Integer
+      attr_accessor temperature: Float
+      attr_accessor uri_base: String
+
+      def initialize: -> void
+      def access_token: -> String?
+    end
+  end
+end

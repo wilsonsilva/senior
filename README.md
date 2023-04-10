@@ -8,6 +8,18 @@
 Provides AI-powered debugging and automatic suggestion of code fixes. It makes use of OpenAI's language model to analyze
 and modify the source code of broken methods, allowing them to be fixed automatically.
 
+## Table of Contents
+
+- [Installation](#installation)
+- [Usage](#usage)
+  - [Auto-debugging a broken method](#auto-debugging-a-broken-method)
+  - [Suggesting a fix for a broken method](#suggesting-a-fix-for-a-broken-method)
+- [Development](#development)
+  - [Type checking](#type-checking)
+- [Contributing](#contributing)
+- [License](#license)
+- [Code of Conduct](#code-of-conduct)
+
 ## Installation
 
 Install the gem and add to the application's Gemfile by executing:
@@ -20,8 +32,23 @@ If bundler is not being used to manage dependencies, install the gem by executin
 
 ## Usage
 
-Before using Senior, ensure that the environment variables `OPEN_AI_ACCESS_TOKEN` and `OPEN_AI_ORGANIZATION_ID` are
-defined. These variables are used by the gem to authenticate and access OpenAI's language model.
+- Get your API key from https://platform.openai.com/account/api-keys
+- (optional) If you belong to multiple organizations, you can get your Organization ID from https://platform.openai.com/account/org-settings
+- Configure the library by passing your OpenAI API credentials:
+
+```ruby
+Senior.configure do |config|
+  config.open_ai.access_token = ENV.fetch('OPEN_AI_ACCESS_TOKEN')
+  config.open_ai.organization_id = ENV.fetch('OPEN_AI_ORGANIZATION_ID') # Optional
+end
+```
+
+Note that `OPEN_AI_ACCESS_TOKEN` and `OPEN_AI_ORGANIZATION_ID` are environment variables that should be set in your
+environment. You should never hardcode your API credentials directly in your code, as this is a security risk.
+Instead, store your API credentials securely, such as using environment variables or a separate configuration file that
+is excluded from source control.
+
+Once you have configured the library, you can use the Senior module to interact with the OpenAI API.
 
 ### Auto-debugging a broken method
 To debug a broken method, call Senior.auto_debug and pass in the broken method, its arguments, and optionally its

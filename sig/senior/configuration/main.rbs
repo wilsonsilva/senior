@@ -1,0 +1,7 @@
+module Senior
+  module Configuration
+    class Main
+      attr_accessor open_ai: Configuration::OpenAI
+    end
+  end
+end

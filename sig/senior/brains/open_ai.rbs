@@ -8,7 +8,8 @@ module Senior
       private
 
       def open_ai_client: -> untyped
-      def request_completion: (String prompt, ?Integer max_tokens) -> String
+      def request_completion: (String prompt) -> String
+      def defaults: -> Senior::Configuration::OpenAI
     end
   end
 end

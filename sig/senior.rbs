@@ -1,12 +1,11 @@
 module Senior
   VERSION: String
+  self.@configuration: Configuration::Main
   self.@agent: Agent
 
   def self.auto_debug: (Method broken_method, untyped args, String? | nil broken_method_source) -> untyped
-
   def self.suggest_fix: (Method broken_method, untyped args) -> String
-
-  private
-
+  def self.configuration: -> Configuration::Main
+  def self.configure: -> untyped
   def self.agent: -> Agent
 end

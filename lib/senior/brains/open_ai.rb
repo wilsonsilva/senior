@@ -45,8 +45,8 @@ module Senior
       #
       def open_ai_client
         @open_ai_client ||= ::OpenAI::Client.new(
-          access_token: ENV.fetch('OPEN_AI_ACCESS_TOKEN'),
-          organization_id: ENV.fetch('OPEN_AI_ORGANIZATION_ID')
+          access_token: Senior.configuration.open_ai.access_token,
+          organization_id: Senior.configuration.open_ai.organization_id
         )
       end
 
@@ -55,25 +55,34 @@ module Senior
       # @api private
       #
       # @param prompt [String] The prompt for which to generate a completion
-      # @param max_tokens [Integer] The maximum number of tokens to generate in the completion. Default value is 1024
       #
       # @return [String] The create completion
       #
-      def request_completion(prompt, max_tokens = 1024)
+      def request_completion(prompt)
         response = open_ai_client.completions(
           parameters: {
-            model: 'text-davinci-003',
+            model: defaults.model,
             prompt:,
-            max_tokens:,
-            n: 1,
+            max_tokens: defaults.max_tokens,
+            n: defaults.n,
             stop: nil,
-            temperature: 0.7
+            temperature: defaults.temperature
           }
         )
 
         raise 'No completion found' unless response['choices'].any?
 
         response.dig('choices', 0, 'text').strip
+      end
+
+      # Returns the default configuration object for the OpenAI brain
+      #
+      # @api private
+      #
+      # @return [Senior::Configuration::OpenAI] The default configuration object for the OpenAI brain.
+      #
+      def defaults
+        Senior.configuration.open_ai
       end
     end
   end

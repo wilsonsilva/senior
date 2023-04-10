@@ -9,6 +9,24 @@ RSpec.describe Senior do
     end
   end
 
+  describe '.configure' do
+    it 'configures the gem' do
+      described_class.configure do |config|
+        config.open_ai.access_token = 'sk-7wzhjKuFX1oI5NjdUyldT53BlbkFNy7ukdCEn5MOEkN9zzmD'
+      end
+
+      expect(described_class.configuration.open_ai.access_token).to eq(
+        'sk-7wzhjKuFX1oI5NjdUyldT53BlbkFNy7ukdCEn5MOEkN9zzmD'
+      )
+    end
+  end
+
+  describe '.configuration' do
+    it "exposes the gem's configuration" do
+      expect(described_class.configuration.open_ai).to be_instance_of(Senior::Configuration::OpenAI)
+    end
+  end
+
   describe '.suggest_fix' do
     it 'suggests a fix for a broken method' do
       suggestion = described_class.suggest_fix(BrokenCode.method(:square), 2)
