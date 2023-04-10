@@ -12,7 +12,7 @@ Gem::Specification.new do |spec|
   spec.description = "This gem provides a simple interface to OpenAI's GPT4 API for code repair. Given a piece of broken code, the gem generates a corrected version."
   spec.homepage = "https://github.com/wilsonsilva/senior"
   spec.license = "MIT"
-  spec.required_ruby_version = ">= 2.6.0"
+  spec.required_ruby_version = ">= 3.2.0"
 
   spec.metadata["allowed_push_host"] = "https://rubygems.org"
 
