@@ -10,6 +10,17 @@
 - RBS Signatures
 - Domain exceptions
 
+## [0.3.0] - 2023-04-11
+
+### Added
+- Added support for OpenAI's Chat Completion API. Setting `Senior.configuration.open_ai.model`
+to any value of `Senior::Brains::OpenAI::CHAT_MODELS` will cause API requests to be sent to `/chat/completions`.
+Whereas setting `Senior.configuration.open_ai.model` to any value of `Senior::Brains::OpenAI::COMPLETION_MODELS`
+will cause API requests to be sent to `/completions`.
+
+### Changed
+- Updated the gem's summary and description to match the idea of the gem - A senior software engineer assistant.
+
 ## [0.2.0] - 2023-04-10
 
 ### Added
@@ -33,5 +44,6 @@ These configurations are used as default values for the OpenAI API calls.
 
 - Initial release
 
+[0.3.0]: https://github.com/wilsonsilva/senior/compare/v0.2.0...v0.3.0
 [0.2.0]: https://github.com/wilsonsilva/senior/compare/v0.1.0...v0.2.0
 [0.1.0]: https://github.com/wilsonsilva/senior/compare/eecec20...v0.1.0
