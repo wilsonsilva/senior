@@ -48,12 +48,11 @@ environment. You should never hardcode your API credentials directly in your cod
 Instead, store your API credentials securely, such as using environment variables or a separate configuration file that
 is excluded from source control.
 
-Once you have configured the library, you can use the Senior module to interact with the OpenAI API.
+Once you have configured the gem, you can use the `Senior` module to interact with the OpenAI API.
 
 ### Auto-debugging a broken method
-To debug a broken method, call Senior.auto_debug and pass in the broken method, its arguments, and optionally its
-source code. The method will be called repeatedly, with modifications made to its source code each time, until it no
-longer raises exceptions.
+To debug a broken method, call `Senior.auto_debug` and pass in the broken method and its arguments. The method will be
+called repeatedly, with modifications made to its source code each time, until it no longer raises exceptions.
 
 ```ruby
 def square(n) = n * y
@@ -63,7 +62,7 @@ puts result # => 4
 ```
 
 ### Suggesting a fix for a broken method
-To suggest a fix for a broken method, call Senior.suggest_fix and pass in the broken method and its arguments.
+To suggest a fix for a broken method, call `Senior.suggest_fix` and pass in the broken method and its arguments.
 The method will be analyzed and a fix will be suggested in the form of modified source code.
 
 ```ruby
