@@ -2,6 +2,15 @@
 
 - Ability to wrap a method invocation. For example, `Senior.suggest_fix { my_broken_method(2) }`
 - Test generation `Senior.write_tests_for {}`
+- Ability to criticize code
+- Identify code smells
+- Suggest refactorings
+- Optimise the code
+- Document the code
+- Generate diagrams
+- Web interface
+- IntelliJ plugin
+- VSCode plugin
 - See price per call
 - Set API calling and pricing limits
 - Use different AI APIs, not just OpenAI
