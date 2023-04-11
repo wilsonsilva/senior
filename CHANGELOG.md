@@ -8,6 +8,8 @@
 - Optimise the code
 - Document the code
 - Generate diagrams
+- Integration with your source code repository and bug-tracking system to open pull requests with fixes
+- Perform code reviews
 - Web interface
 - IntelliJ plugin
 - VSCode plugin
