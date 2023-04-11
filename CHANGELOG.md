@@ -20,6 +20,7 @@ will cause API requests to be sent to `/completions`.
 
 ### Changed
 - Updated the gem's summary and description to match the idea of the gem - A senior software engineer assistant.
+- Updated the `bin/setup` script to copy the `.env.example` file to `.env`
 
 ## [0.2.0] - 2023-04-10
 
