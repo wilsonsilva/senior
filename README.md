@@ -5,8 +5,9 @@
 [![Test Coverage](https://api.codeclimate.com/v1/badges/87e6e2167d3283e3b79b/test_coverage)](https://codeclimate.com/github/wilsonsilva/senior/test_coverage)
 [![Maintainability](https://api.codeclimate.com/v1/badges/87e6e2167d3283e3b79b/maintainability)](https://codeclimate.com/github/wilsonsilva/senior/maintainability)
 
-Provides AI-powered debugging and automatic suggestion of code fixes. It makes use of OpenAI's language model to analyze
-and modify the source code of broken methods, allowing them to be fixed automatically.
+An AI-powered pair programmer. Provides a user-friendly interface for using AI API's to automatically repair broken code
+and suggest improvements. Simply provide the faulty code as input, and the gem will generate a corrected version using
+advanced machine learning techniques.
 
 ## Table of Contents
 
