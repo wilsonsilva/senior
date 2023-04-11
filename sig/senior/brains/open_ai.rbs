@@ -1,6 +1,10 @@
 module Senior
   module Brains
     class OpenAI
+      CHAT_MODELS: Array[String]
+      COMPLETION_MODELS: Array[String]
+      CHAT_SYSTEM_PROMPT: String
+
       @open_ai_client: untyped
 
       def suggest_fix: (erroneous_source: String, exception_backtrace: String) -> String
@@ -9,6 +13,7 @@ module Senior
 
       def open_ai_client: -> untyped
       def request_completion: (String prompt) -> String
+      def request_chat_completion: (String prompt) -> String
       def defaults: -> Senior::Configuration::OpenAI
     end
   end
