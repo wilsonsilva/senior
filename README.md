@@ -77,6 +77,9 @@ puts suggestion # => "def square(n) = n * n"
 
 After checking out the repo, run `bin/setup` to install dependencies.
 
+Set your OpenAI API credentials in the environment variables `OPEN_AI_ACCESS_TOKEN` and `OPEN_AI_ORGANIZATION_ID`.
+Either in your machine's environment or in a `.env` file in the root of the project.
+
 To install this gem onto your local machine, run `bundle exec rake install`.
 
 You can also run `bin/console` for an interactive prompt that will allow you to experiment.

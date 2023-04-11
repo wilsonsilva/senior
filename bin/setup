@@ -11,4 +11,7 @@ if ! which overcommit >/dev/null; then
   exit 1
 fi
 
+cp .env.example .env
+echo 'Please edit the .env file and fill in the missing values.'
+
 overcommit --install
