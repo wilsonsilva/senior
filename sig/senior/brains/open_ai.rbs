@@ -7,7 +7,7 @@ module Senior
 
       @open_ai_client: untyped
 
-      def suggest_fix: (erroneous_source: String, exception_backtrace: String) -> String
+      def suggest_method_fix: (erroneous_source: String, exception_backtrace: String) -> String
 
       private
 

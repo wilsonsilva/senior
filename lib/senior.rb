@@ -1,9 +1,10 @@
 # frozen_string_literal: true
 
 require_relative 'senior/errors'
+require_relative 'senior/commands/auto_debug_method'
+require_relative 'senior/commands/suggest_method_fix'
 require_relative 'senior/configuration/main'
 require_relative 'senior/brains/open_ai'
-require_relative 'senior/agent'
 require_relative 'senior/version'
 
 require 'method_source'
@@ -17,7 +18,7 @@ module Senior
   # @example Debugging a broken method
   #  def square(n) = n * y
   #
-  #  result = Senior.auto_debug(method(:square), 2)
+  #  result = Senior.auto_debug_method(method(:square), 2)
   #  result # => 4
   #
   # @param broken_method [Method] A broken method to be fixed
@@ -26,8 +27,8 @@ module Senior
   #
   # @return [Object] The return value of the previously broken but now fixed method
   #
-  def self.auto_debug(broken_method, args, broken_method_source = nil)
-    agent.auto_debug(broken_method, args, broken_method_source)
+  def self.auto_debug_method(broken_method, args, broken_method_source = nil)
+    Commands::AutoDebugMethod.new(brain).call(broken_method, args, broken_method_source)
   end
 
   # Suggests a fix for a broken method
@@ -37,7 +38,7 @@ module Senior
   # @example Suggesting a fix for a broken method
   #  def square(n) = n * y
   #
-  #  suggestion = Senior.suggest_fix(method(:square), 2)
+  #  suggestion = Senior.suggest_method_fix(method(:square), 2)
   #  suggestion # => "def square(n) = n * n"
   #
   # @param broken_method [Method] A broken method to be fixed
@@ -45,18 +46,18 @@ module Senior
   #
   # @return [String] The suggested fix
   #
-  def self.suggest_fix(broken_method, args)
-    agent.suggest_fix(broken_method, args)
+  def self.suggest_method_fix(broken_method, args)
+    Commands::SuggestMethodFix.new(brain).call(broken_method, args)
   end
 
-  # Returns an instance of the agent
+  # Returns an interface to OpenAI's API
   #
   # @api private
   #
-  # @return [Agent] An instance of the agent
+  # @return [Brain] Interface to OpenAI's API
   #
-  def self.agent
-    @agent ||= Agent.new
+  def self.brain
+    @brain ||= Brains::OpenAI.new
   end
 
   # Returns the configuration object for the Senior gem

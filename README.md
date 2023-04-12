@@ -52,24 +52,24 @@ is excluded from source control.
 Once you have configured the gem, you can use the `Senior` module to interact with the OpenAI API.
 
 ### Auto-debugging a broken method
-To debug a broken method, call `Senior.auto_debug` and pass in the broken method and its arguments. The method will be
+To debug a broken method, call `Senior.auto_debug_method` and pass in the broken method and its arguments. The method will be
 called repeatedly, with modifications made to its source code each time, until it no longer raises exceptions.
 
 ```ruby
 def square(n) = n * y
 
-result = Senior.auto_debug(method(:square), 2)
+result = Senior.auto_debug_method(method(:square), 2)
 puts result # => 4
 ```
 
 ### Suggesting a fix for a broken method
-To suggest a fix for a broken method, call `Senior.suggest_fix` and pass in the broken method and its arguments.
+To suggest a fix for a broken method, call `Senior.suggest_method_fix` and pass in the broken method and its arguments.
 The method will be analyzed and a fix will be suggested in the form of modified source code.
 
 ```ruby
 def square(n) = n * y
 
-suggestion = Senior.suggest_fix(method(:square), 2)
+suggestion = Senior.suggest_method_fix(method(:square), 2)
 puts suggestion # => "def square(n) = n * n"
 ```
 

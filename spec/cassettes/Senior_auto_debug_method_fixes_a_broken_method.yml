@@ -28,7 +28,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Mon, 10 Apr 2023 06:41:06 GMT
+      - Wed, 12 Apr 2023 05:17:12 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -44,7 +44,7 @@ http_interactions:
       Openai-Organization:
       - "<ORGANIZATION_ID>"
       Openai-Processing-Ms:
-      - '800'
+      - '563'
       Openai-Version:
       - '2020-10-01'
       Strict-Transport-Security:
@@ -62,20 +62,20 @@ http_interactions:
       X-Ratelimit-Reset-Tokens:
       - 245ms
       X-Request-Id:
-      - 31086f9afcac5ce0bdb56b9042ae5bf5
+      - 6d03a79e9b290d7455cdea4cb28bf9d0
       Cf-Cache-Status:
       - DYNAMIC
       Server:
       - cloudflare
       Cf-Ray:
-      - 7b590086d86aa1ae-BKK
+      - 7b69006369c6a1b1-BKK
       Alt-Svc:
       - h3=":443"; ma=86400, h3-29=":443"; ma=86400
     body:
       encoding: ASCII-8BIT
-      string: '{"id":"cmpl-73fV3qaKzjBkOn9tsBRZfgt2ANXt8","object":"text_completion","created":1681108865,"model":"text-davinci-003","choices":[{"text":"  def
+      string: '{"id":"cmpl-74N8x22ZZGQUv5a3av3BLK9nUPMP6","object":"text_completion","created":1681276631,"model":"text-davinci-003","choices":[{"text":"  def
         self.square(n)\n    n * n\n  end","index":0,"logprobs":null,"finish_reason":"stop"}],"usage":{"prompt_tokens":75,"completion_tokens":16,"total_tokens":91}}
 
         '
-  recorded_at: Mon, 10 Apr 2023 06:41:06 GMT
+  recorded_at: Wed, 12 Apr 2023 05:17:12 GMT
 recorded_with: VCR 6.1.0

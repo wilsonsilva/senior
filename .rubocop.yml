@@ -12,7 +12,7 @@ AllCops:
 # --------------------- Security ----------------------
 Security/Eval:
   Exclude:
-    - lib/senior/agent.rb
+    - lib/senior/commands/auto_debug_method.rb
 
 # ----------------------- Style -----------------------
 

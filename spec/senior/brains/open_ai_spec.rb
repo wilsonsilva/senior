@@ -3,7 +3,7 @@
 RSpec.describe Senior::Brains::OpenAI do
   let(:open_ai) { described_class.new }
 
-  describe '#suggest_fix' do
+  describe '#suggest_method_fix' do
     context 'when using a chat model' do
       let(:open_ai_configuration) do
         instance_double(
@@ -20,7 +20,7 @@ RSpec.describe Senior::Brains::OpenAI do
       before { allow(Senior.configuration).to receive(:open_ai).and_return(open_ai_configuration) }
 
       it 'suggests a fix for a broken method' do
-        suggested_fix = open_ai.suggest_fix(
+        suggested_fix = open_ai.suggest_method_fix(
           erroneous_source: 'def self.square(n) = n * y',
           exception_backtrace: "/Users/wilson/projects/rb/senior/spec/support/broken_code.rb:4:in `square'"
         )
@@ -51,7 +51,7 @@ RSpec.describe Senior::Brains::OpenAI do
       before { allow(Senior.configuration).to receive(:open_ai).and_return(open_ai_configuration) }
 
       it 'suggests a fix for a broken method' do
-        suggested_fix = open_ai.suggest_fix(
+        suggested_fix = open_ai.suggest_method_fix(
           erroneous_source: 'def self.square(n) = n * y',
           exception_backtrace: "/Users/wilson/projects/rb/senior/spec/support/broken_code.rb:4:in `square'"
         )
@@ -83,7 +83,7 @@ RSpec.describe Senior::Brains::OpenAI do
 
       it 'raises an error' do
         expect do
-          open_ai.suggest_fix(
+          open_ai.suggest_method_fix(
             erroneous_source: 'def self.square(n) = n * y',
             exception_backtrace: "/Users/wilson/projects/rb/senior/spec/support/broken_code.rb:4:in `square'"
           )

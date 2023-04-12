@@ -1,0 +1,14 @@
+# frozen_string_literal: true
+
+module Senior
+  module Commands
+    class SuggestMethodFix
+      def initialize: (?_IBrain brain) -> void
+      def call: (Method broken_method, untyped args) -> String
+
+      private
+
+      attr_reader brain: _IBrain
+    end
+  end
+end

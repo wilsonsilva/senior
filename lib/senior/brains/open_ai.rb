@@ -24,7 +24,7 @@ module Senior
       #
       # @return [String] The suggested fix
       #
-      def suggest_fix(erroneous_source:, exception_backtrace:)
+      def suggest_method_fix(erroneous_source:, exception_backtrace:)
         prompt = <<~PROMPT
           This is a method's source and the error. Fix the method:
 

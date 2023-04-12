@@ -6,8 +6,8 @@ http_interactions:
     body:
       encoding: UTF-8
       string: '{"model":"text-davinci-003","prompt":"This is a method''s source and
-        the error. Fix the method:\n\n## Source:\ndef self.square(n) = n * y\n\n##
-        Error:\n/Users/wilson/projects/rb/senior/spec/support/broken_code.rb:4:in
+        the error. Fix the method:\n\n## Source:\n  def self.square(n) = n * y\n\n\n##
+        Error:\n/Users/wilson/projects/rb/senior/spec/support/broken_code.rb:5:in
         `square''\n\n## Updated source:\n","max_tokens":1024,"n":1,"stop":null,"temperature":0.7}'
     headers:
       Content-Type:
@@ -28,7 +28,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Tue, 11 Apr 2023 03:39:36 GMT
+      - Wed, 12 Apr 2023 05:17:11 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -44,7 +44,7 @@ http_interactions:
       Openai-Organization:
       - "<ORGANIZATION_ID>"
       Openai-Processing-Ms:
-      - '646'
+      - '916'
       Openai-Version:
       - '2020-10-01'
       Strict-Transport-Security:
@@ -62,20 +62,20 @@ http_interactions:
       X-Ratelimit-Reset-Tokens:
       - 245ms
       X-Request-Id:
-      - 2ec0a717b70da8ae4ae31f74065da2b9
+      - a7e25403bf9f4b1fba77f540a7f5540b
       Cf-Cache-Status:
       - DYNAMIC
       Server:
       - cloudflare
       Cf-Ray:
-      - 7b60340d7d29a1b7-BKK
+      - 7b69005a9e5aa1b6-BKK
       Alt-Svc:
       - h3=":443"; ma=86400, h3-29=":443"; ma=86400
     body:
       encoding: ASCII-8BIT
-      string: '{"id":"cmpl-73z8yCdLlgCaTrJDVoZzPIDnRF8U5","object":"text_completion","created":1681184376,"model":"text-davinci-003","choices":[{"text":"def
-        self.square(n)\n  n * n\nend","index":0,"logprobs":null,"finish_reason":"stop"}],"usage":{"prompt_tokens":74,"completion_tokens":14,"total_tokens":88}}
+      string: '{"id":"cmpl-74N8w09Unu29b95YlH6M5xW0GC0Kw","object":"text_completion","created":1681276630,"model":"text-davinci-003","choices":[{"text":"  def
+        self.square(n)\n  n * n\nend","index":0,"logprobs":null,"finish_reason":"stop"}],"usage":{"prompt_tokens":75,"completion_tokens":17,"total_tokens":92}}
 
         '
-  recorded_at: Tue, 11 Apr 2023 03:39:36 GMT
+  recorded_at: Wed, 12 Apr 2023 05:17:11 GMT
 recorded_with: VCR 6.1.0

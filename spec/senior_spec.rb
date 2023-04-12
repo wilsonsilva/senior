@@ -1,9 +1,9 @@
 # frozen_string_literal: true
 
 RSpec.describe Senior do
-  describe '.auto_debug' do
+  describe '.auto_debug_method' do
     it 'fixes a broken method' do
-      result = described_class.auto_debug(BrokenCode.method(:square), 2)
+      result = described_class.auto_debug_method(BrokenCode.method(:square), 2)
 
       expect(result).to eq(4)
     end
@@ -27,9 +27,9 @@ RSpec.describe Senior do
     end
   end
 
-  describe '.suggest_fix' do
+  describe '.suggest_method_fix' do
     it 'suggests a fix for a broken method' do
-      suggestion = described_class.suggest_fix(BrokenCode.method(:square), 2)
+      suggestion = described_class.suggest_method_fix(BrokenCode.method(:square), 2)
 
       expect(suggestion).to eq(
         <<~PROMPT.chomp

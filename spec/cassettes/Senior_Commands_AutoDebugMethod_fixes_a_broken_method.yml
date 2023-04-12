@@ -2,14 +2,13 @@
 http_interactions:
 - request:
     method: post
-    uri: https://api.openai.com/v1/chat/completions
+    uri: https://api.openai.com/v1/completions
     body:
       encoding: UTF-8
-      string: '{"model":"gpt-3.5-turbo","max_tokens":1024,"n":1,"temperature":0.7,"messages":[{"role":"system","content":"You''re
-        a Ruby dev. Only reply with plain code, no explanations."},{"role":"user","content":"This
-        is a method''s source and the error. Fix the method:\n\n## Source:\ndef self.square(n)
-        = n * y\n\n## Error:\n/Users/wilson/projects/rb/senior/spec/support/broken_code.rb:4:in
-        `square''\n\n## Updated source:\n"}]}'
+      string: '{"model":"text-davinci-003","prompt":"This is a method''s source and
+        the error. Fix the method:\n\n## Source:\n  def self.square(n) = n * y\n\n\n##
+        Error:\n/Users/wilson/projects/rb/senior/spec/support/broken_code.rb:5:in
+        `square''\n\n## Updated source:\n","max_tokens":1024,"n":1,"stop":null,"temperature":0.7}'
     headers:
       Content-Type:
       - application/json
@@ -29,7 +28,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Tue, 11 Apr 2023 03:39:35 GMT
+      - Wed, 12 Apr 2023 05:17:10 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -41,36 +40,42 @@ http_interactions:
       Cache-Control:
       - no-cache, must-revalidate
       Openai-Model:
-      - gpt-3.5-turbo-0301
+      - text-davinci-003
       Openai-Organization:
       - "<ORGANIZATION_ID>"
       Openai-Processing-Ms:
-      - '1055'
+      - '648'
       Openai-Version:
       - '2020-10-01'
       Strict-Transport-Security:
       - max-age=15724800; includeSubDomains
       X-Ratelimit-Limit-Requests:
-      - '3500'
+      - '3000'
+      X-Ratelimit-Limit-Tokens:
+      - '250000'
       X-Ratelimit-Remaining-Requests:
-      - '3499'
+      - '2999'
+      X-Ratelimit-Remaining-Tokens:
+      - '248975'
       X-Ratelimit-Reset-Requests:
-      - 17ms
+      - 20ms
+      X-Ratelimit-Reset-Tokens:
+      - 245ms
       X-Request-Id:
-      - 1a3f7f70324530023d67eb9235058df5
+      - 0b71cc337060f7a5572c63c46cc37738
       Cf-Cache-Status:
       - DYNAMIC
       Server:
       - cloudflare
       Cf-Ray:
-      - 7b6034047804a1ae-BKK
+      - 7b6900546c30a1b6-BKK
       Alt-Svc:
       - h3=":443"; ma=86400, h3-29=":443"; ma=86400
     body:
       encoding: ASCII-8BIT
-      string: '{"id":"chatcmpl-73z8wkCGhheTUW8WDHnmVt6dgaSmv","object":"chat.completion","created":1681184374,"model":"gpt-3.5-turbo-0301","usage":{"prompt_tokens":85,"completion_tokens":11,"total_tokens":96},"choices":[{"message":{"role":"assistant","content":"def
-        self.square(n)\n  n * n\nend"},"finish_reason":"stop","index":0}]}
+      string: '{"id":"cmpl-74N8vg03UgoeHG71d2dFciEGXNkpg","object":"text_completion","created":1681276629,"model":"text-davinci-003","choices":[{"text":"  def
+        self.square(n)\n    n * n\n  end","index":0,"logprobs":null,"finish_reason":"stop"}],"usage":{"prompt_tokens":75,"completion_tokens":16,"total_tokens":91}}
 
         '
-  recorded_at: Tue, 11 Apr 2023 03:39:35 GMT
+  recorded_at: Wed, 12 Apr 2023 05:17:09 GMT
 recorded_with: VCR 6.1.0
