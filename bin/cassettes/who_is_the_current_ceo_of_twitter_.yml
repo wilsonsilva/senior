@@ -1,0 +1,108 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: https://api.openai.com/v1/chat/completions
+    body:
+      encoding: UTF-8
+      string: '{"model":"gpt-4","messages":[{"role":"system","content":"Who is the
+        current CEO of Twitter?\nYour decisions must always be made independently
+        without seeking user assistance. Play to your strengths as an LLM and\npursue
+        simple strategies with no legal complications.\n\n\nCONSTRAINTS:\n1. No user
+        assistance.\n2. Cannot run Ruby code that requires user input.\n\n\nACTIONS:\n\n1.
+        \"READ_FILE\": read the current state of a file. The schema for the action
+        is:\n\nREAD_FILE: <PATH>\n\n2. \"WRITE_FILE\": write a block of text to a
+        file. The schema for the action is:\n\nWRITE_FILE: <PATH>\n```\n<TEXT>\n```\n\n3.
+        \"RUN_RUBY\": run a Ruby file. The schema for the action is:\n\nRUN_RUBY:
+        <PATH>\n\n4. \"SEARCH_ONLINE\": search online and get back a list of URLs
+        relevant to the query. The schema for the action is:\n\nSEARCH_ONLINE: <QUERY>\n\n5.
+        EXTRACT_INFO: extract specific information from a webpage. The schema for
+        the action is:\n\nEXTRACT_INFO: <URL>, <a brief instruction to GPT for information
+        to extract>\n\n6. \"SHUTDOWN\": shut down the program. The schema for the
+        action is:\n\nSHUTDOWN\n\n\nRESOURCES:\n1. File contents after reading file.\n2.
+        Online search results returning URLs.\n3. Output of running a Ruby file.\n\n\nPERFORMANCE
+        EVALUATION:\n1. Continuously review and analyze your actions to ensure you
+        are performing to the best of your abilities.\n2. Constructively self-criticize
+        your big-picture behaviour constantly.\n3. Reflect on past decisions and strategies
+        to refine your approach.\n4. Every action has a cost, so be smart and efficient.
+        Aim to complete tasks in the least number of steps.\n\n\nWrite only one action.
+        The action must one of the actions specified above and must be written according
+        to the schema\nspecified above.\n\nAfter the action, also write the following
+        metadata JSON object, which must be parsable by Ruby''s JSON.parse()\n{\n    \"criticism\":
+        \"<constructive self-criticism of actions performed so far, if any>\",\n    \"reason\":
+        \"<a sentence explaining the action above>\",\n    \"plan\": \"<a short high-level
+        plan in plain English>\",\n    \"speak\": \"<a short summary of thoughts to
+        say to the user>\"\n}\n\nIf you want to run an action that is not in the above
+        list of actions, send the SHUTDOWN action instead and explain\nwhich action
+        you wanted to run in the metadata JSON object.\n\nSo, write one action and
+        one metadata JSON object, nothing else.\n"},{"role":"user","content":"Determine
+        which next action to use, and write one valid action, a newline, and one valid
+        metadata JSON object, both according to the specified schema:"}],"max_tokens":7579}'
+    headers:
+      Content-Type:
+      - application/json
+      Authorization:
+      - Bearer <OPEN_AI_ACCESS_TOKEN>
+      Openai-Organization:
+      - "<OPEN_AI_ORGANIZATION_ID>"
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 13 Apr 2023 05:16:50 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - no-cache, must-revalidate
+      Openai-Model:
+      - gpt-4-0314
+      Openai-Organization:
+      - "<OPEN_AI_ORGANIZATION_ID>"
+      Openai-Processing-Ms:
+      - '12537'
+      Openai-Version:
+      - '2020-10-01'
+      Strict-Transport-Security:
+      - max-age=15724800; includeSubDomains
+      X-Ratelimit-Limit-Requests:
+      - '200'
+      X-Ratelimit-Remaining-Requests:
+      - '199'
+      X-Ratelimit-Reset-Requests:
+      - 300ms
+      X-Request-Id:
+      - 7ad82159f7a4bbbe76e112e13feea749
+      Cf-Cache-Status:
+      - DYNAMIC
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 7b713ced5d2aa1c2-BKK
+      Alt-Svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400
+    body:
+      encoding: ASCII-8BIT
+      string: '{"id":"chatcmpl-74jbxogC8WQ1C6oqiNyXPnH3w79E6","object":"chat.completion","created":1681362997,"model":"gpt-4-0314","usage":{"prompt_tokens":563,"completion_tokens":80,"total_tokens":643},"choices":[{"message":{"role":"assistant","content":"SEARCH_ONLINE:
+        current CEO of Twitter\n\n{\n    \"criticism\": \"\",\n    \"reason\": \"Searching
+        online to find the current CEO of Twitter\",\n    \"plan\": \"Find the relevant
+        information about the current CEO of Twitter and summarize it for the user.\",\n    \"speak\":
+        \"I am searching online for the current CEO of Twitter. I will update you
+        with the information shortly.\"\n}"},"finish_reason":"stop","index":0}]}
+
+        '
+  recorded_at: Thu, 13 Apr 2023 05:16:49 GMT
+recorded_with: VCR 6.1.0

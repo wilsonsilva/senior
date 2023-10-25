@@ -1,0 +1,2513 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://customsearch.googleapis.com/customsearch/v1?cx=823e3d12c3f3b4166&key=AIzaSyBJvX45Az4C0ntB0yEP52xDqUv9JPokNa4&num=10&q=current%20CEO%20of%20Twitter
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      User-Agent:
+      - unknown/0.0.0 google-apis-customsearch_v1/0.15.0 Mac OS X/13.3 (gzip)
+      Accept:
+      - "*/*"
+      Accept-Encoding:
+      - gzip,deflate
+      Date:
+      - Thu, 13 Apr 2023 05:21:28 GMT
+      X-Goog-Api-Client:
+      - gl-ruby/3.2.2 gdcl/1.15.0
+      Content-Type:
+      - application/x-www-form-urlencoded
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=UTF-8
+      Vary:
+      - Origin
+      - Referer
+      - X-Origin
+      Content-Encoding:
+      - gzip
+      Date:
+      - Thu, 13 Apr 2023 05:21:30 GMT
+      Server:
+      - ESF
+      Cache-Control:
+      - private
+      X-Xss-Protection:
+      - '0'
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Content-Type-Options:
+      - nosniff
+      Alt-Svc:
+      - h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: |
+        {
+          "kind": "customsearch#search",
+          "url": {
+            "type": "application/json",
+            "template": "https://www.googleapis.com/customsearch/v1?q={searchTerms}&num={count?}&start={startIndex?}&lr={language?}&safe={safe?}&cx={cx?}&sort={sort?}&filter={filter?}&gl={gl?}&cr={cr?}&googlehost={googleHost?}&c2coff={disableCnTwTranslation?}&hq={hq?}&hl={hl?}&siteSearch={siteSearch?}&siteSearchFilter={siteSearchFilter?}&exactTerms={exactTerms?}&excludeTerms={excludeTerms?}&linkSite={linkSite?}&orTerms={orTerms?}&relatedSite={relatedSite?}&dateRestrict={dateRestrict?}&lowRange={lowRange?}&highRange={highRange?}&searchType={searchType}&fileType={fileType?}&rights={rights?}&imgSize={imgSize?}&imgType={imgType?}&imgColorType={imgColorType?}&imgDominantColor={imgDominantColor?}&alt=json"
+          },
+          "queries": {
+            "request": [
+              {
+                "title": "Google Custom Search - current CEO of Twitter",
+                "totalResults": "335000000",
+                "searchTerms": "current CEO of Twitter",
+                "count": 10,
+                "startIndex": 1,
+                "inputEncoding": "utf8",
+                "outputEncoding": "utf8",
+                "safe": "off",
+                "cx": "823e3d12c3f3b4166"
+              }
+            ],
+            "nextPage": [
+              {
+                "title": "Google Custom Search - current CEO of Twitter",
+                "totalResults": "335000000",
+                "searchTerms": "current CEO of Twitter",
+                "count": 10,
+                "startIndex": 11,
+                "inputEncoding": "utf8",
+                "outputEncoding": "utf8",
+                "safe": "off",
+                "cx": "823e3d12c3f3b4166"
+              }
+            ]
+          },
+          "context": {
+            "title": "senior-gem"
+          },
+          "searchInformation": {
+            "searchTime": 0.466495,
+            "formattedSearchTime": "0.47",
+            "totalResults": "335000000",
+            "formattedTotalResults": "335,000,000"
+          },
+          "items": [
+            {
+              "kind": "customsearch#result",
+              "title": "Twitter, Inc. - Wikipedia",
+              "htmlTitle": "\u003cb\u003eTwitter\u003c/b\u003e, Inc. - Wikipedia",
+              "link": "https://en.wikipedia.org/wiki/Twitter,_Inc.",
+              "displayLink": "en.wikipedia.org",
+              "snippet": "^ \"Elon Musk now in charge of Twitter, CEO and CFO have left, sources say\". CNBC. Archived from the original on November 6, 2022. Retrieved October 28, 2022. ^ ...",
+              "htmlSnippet": "^ &quot;Elon Musk now in charge of \u003cb\u003eTwitter\u003c/b\u003e, \u003cb\u003eCEO\u003c/b\u003e and CFO have left, sources say&quot;. CNBC. Archived from the original on November 6, 2022. Retrieved October 28, 2022. ^&nbsp;...",
+              "cacheId": "ZbH3Xa6nR_IJ",
+              "formattedUrl": "https://en.wikipedia.org/wiki/Twitter,_Inc.",
+              "htmlFormattedUrl": "https://en.wikipedia.org/wiki/\u003cb\u003eTwitter\u003c/b\u003e,_Inc.",
+              "pagemap": {
+                "hcard": [
+                  {
+                    "url_text": "about.twitter.com",
+                    "bday": "2006-03-21",
+                    "fn": "Twitter, Inc.",
+                    "logo": "Final logo used from 2012 to 2023",
+                    "category": "Private",
+                    "url": "about.twitter.com"
+                  }
+                ],
+                "metatags": [
+                  {
+                    "referrer": "origin",
+                    "og:image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Twitter_Headquarters_in_San_Francisco-L1001299.jpg/1200px-Twitter_Headquarters_in_San_Francisco-L1001299.jpg",
+                    "theme-color": "#eaecf0",
+                    "og:image:width": "1200",
+                    "og:type": "website",
+                    "viewport": "width=device-width, initial-scale=1.0, user-scalable=yes, minimum-scale=0.25, maximum-scale=5.0",
+                    "og:title": "Twitter, Inc. - Wikipedia",
+                    "og:image:height": "1500",
+                    "format-detection": "telephone=no"
+                  }
+                ]
+              }
+            },
+            {
+              "kind": "customsearch#result",
+              "title": "Elon Musk now in charge of Twitter, CEO and CFO have left, sources ...",
+              "htmlTitle": "Elon Musk now in charge of \u003cb\u003eTwitter\u003c/b\u003e, \u003cb\u003eCEO\u003c/b\u003e and CFO have left, sources ...",
+              "link": "https://www.cnbc.com/2022/10/27/elon-musk-now-in-charge-of-twitter-ceo-and-cfo-have-left-sources-say.html",
+              "displayLink": "www.cnbc.com",
+              "snippet": "Oct 27, 2022 ... Tesla CEO Elon Musk has taken control of Twitter, which he agreed to purchase for $44 billion.",
+              "htmlSnippet": "Oct 27, 2022 \u003cb\u003e...\u003c/b\u003e Tesla \u003cb\u003eCEO\u003c/b\u003e Elon Musk has taken control of \u003cb\u003eTwitter\u003c/b\u003e, which he agreed to purchase for $44 billion.",
+              "formattedUrl": "https://www.cnbc.com/.../elon-musk-now-in-charge-of-twitter-ceo-and-cfo- have-left-sources-say.html",
+              "htmlFormattedUrl": "https://www.cnbc.com/.../elon-musk-now-in-charge-of-\u003cb\u003etwitter\u003c/b\u003e-\u003cb\u003eceo\u003c/b\u003e-and-cfo- have-left-sources-say.html",
+              "pagemap": {
+                "cse_thumbnail": [
+                  {
+                    "src": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTwHWsNGDlq37hBOk717oGdREgB_kDMcRf7eff6lsFxTMptRGibzxl0FSc1",
+                    "width": "300",
+                    "height": "168"
+                  }
+                ],
+                "newsmediaorganization": [
+                  {
+                    "foundingdate": "'1989-04-17'",
+                    "name": "CNBC",
+                    "url": "https://www.cnbc.com"
+                  }
+                ],
+                "metatags": [
+                  {
+                    "og:image": "https://image.cnbcfm.com/api/v1/image/107111240-1661865566264-musk5.jpg?v=1669221681&w=1920&h=1080",
+                    "apple-itunes-app": "app-id=398018310",
+                    "twitter:card": "summary_large_image",
+                    "article:published_time": "2022-10-28T00:23:01+0000",
+                    "og:site_name": "CNBC",
+                    "twitter:url": "https://www.cnbc.com/2022/10/27/elon-musk-now-in-charge-of-twitter-ceo-and-cfo-have-left-sources-say.html",
+                    "tp:preferredformats": "M3U,MPEG4",
+                    "og:description": "Tesla CEO Elon Musk has taken control of Twitter, which he agreed to purchase for $44 billion.",
+                    "twitter:creator": "DavidFaber",
+                    "parsely-metadata": "{\"nodeid\":107142237,\"originalImage\":\"https://image.cnbcfm.com/api/v1/image/107111240-1661865566264-musk5.jpg?v=1669221681\"}",
+                    "article:publisher": "https://www.facebook.com/cnbc",
+                    "al:ios:app_store_id": "398018310",
+                    "pagenodeid": "107142237",
+                    "twitter:site": "@CNBC",
+                    "article:modified_time": "2022-10-28T13:08:21+0000",
+                    "news_keywords": "Breaking News: Technology,Internet,Technology,Mobile,Social media,Tesla Inc,Twitter (delisted),Elon Musk,Elon Musk,business news",
+                    "tp:preferredruntimes": "universal",
+                    "tp:initialize": "false",
+                    "assettype": "cnbcnewsstory",
+                    "og:type": "article",
+                    "twitter:title": "Elon Musk now in charge of Twitter, CEO and CFO have left, sources say",
+                    "article:section": "Technology",
+                    "al:ios:app_name": "CNBC Business News and Finance",
+                    "author": "David Faber,Jonathan Vanian",
+                    "og:title": "Elon Musk now in charge of Twitter, CEO and CFO have left, sources say",
+                    "article:author": "https://www.facebook.com/CNBC",
+                    "twitter:image:src": "https://image.cnbcfm.com/api/v1/image/107111240-1661865566264-musk5.jpg?v=1669221681&w=1920&h=1080",
+                    "article:tag": "Breaking News: Technology",
+                    "viewport": "initial-scale=1.0, width=device-width",
+                    "twitter:description": "Tesla CEO Elon Musk has taken control of Twitter, which he agreed to purchase for $44 billion.",
+                    "og:url": "https://www.cnbc.com/2022/10/27/elon-musk-now-in-charge-of-twitter-ceo-and-cfo-have-left-sources-say.html",
+                    "format-detection": "telephone=no",
+                    "article:opinion": "false"
+                  }
+                ],
+                "webpage": [
+                  {
+                    "image": "https://image.cnbcfm.com/api/v1/image/107111240-1661865566264-musk5.jpg?v=1669221681&w=1920&h=1080",
+                    "contentrating": "NR",
+                    "specialty": "Breaking News: Technology,Internet,Technology,Mobile,Social media,Tesla Inc,Twitter (delisted),Elon Musk,Elon Musk",
+                    "primaryimageofpage": "https://image.cnbcfm.com/api/v1/image/107111240-1661865566264-musk5.jpg?v=1669221681",
+                    "datemodified": "2022-10-28T13:08:21+0000",
+                    "inlanguage": "en-US",
+                    "keywords": "Breaking News: Technology,Internet,Technology,Mobile,Social media,Tesla Inc,Twitter (delisted),Elon Musk,Elon Musk,business news",
+                    "lastreviewed": "2022-10-28T13:08:21+0000",
+                    "name": "Elon Musk now in charge of Twitter, CEO and CFO have left, sources say",
+                    "description": "Tesla CEO Elon Musk has taken control of Twitter, which he agreed to purchase for $44 billion.",
+                    "datecreated": "2022-10-28T00:23:01+0000",
+                    "datepublished": "2022-10-28T00:23:01+0000"
+                  }
+                ],
+                "cse_image": [
+                  {
+                    "src": "https://image.cnbcfm.com/api/v1/image/107111240-1661865566264-musk5.jpg?v=1669221681&w=1920&h=1080"
+                  }
+                ]
+              }
+            },
+            {
+              "kind": "customsearch#result",
+              "title": "What Happens to Twitter CEO Parag Agrawal After Musk Deal | Time",
+              "htmlTitle": "What Happens to \u003cb\u003eTwitter CEO\u003c/b\u003e Parag Agrawal After Musk Deal | Time",
+              "link": "https://time.com/6170799/parag-agrawal-twitter-elon-musk/",
+              "displayLink": "time.com",
+              "snippet": "Apr 26, 2022 ... That puts Twitter's CEO, Parag Agrawal, at risk. But what is Agrawal's background and what could happen to him following Musk's takeover? Who is ...",
+              "htmlSnippet": "Apr 26, 2022 \u003cb\u003e...\u003c/b\u003e That puts \u003cb\u003eTwitter&#39;s CEO\u003c/b\u003e, Parag Agrawal, at risk. But what is Agrawal&#39;s background and what could happen to him following Musk&#39;s takeover? Who is&nbsp;...",
+              "cacheId": "gmq6ZWowApgJ",
+              "formattedUrl": "https://time.com/6170799/parag-agrawal-twitter-elon-musk/",
+              "htmlFormattedUrl": "https://time.com/6170799/parag-agrawal-\u003cb\u003etwitter\u003c/b\u003e-elon-musk/",
+              "pagemap": {
+                "cse_thumbnail": [
+                  {
+                    "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVG7Hgz7mbKeczNev0RgI3sqIExpEr3-nmkPNlSQduNktDRGltw8HG4QVW",
+                    "width": "311",
+                    "height": "162"
+                  }
+                ],
+                "metatags": [
+                  {
+                    "pinterest:description": "Agrawal's opinions on free speech online, which Musk aims to protect in his takeover, are very different to those of the Tesla CEO.",
+                    "og:image": "https://api.time.com/wp-content/uploads/2022/04/Parag-Agrawal.jpg?quality=85&crop=0px%2C518px%2C1600px%2C836px&resize=1200%2C628&strip",
+                    "article:published_time": "2022-04-26T17:18:14.000Z",
+                    "twitter:card": "summary_large_image",
+                    "og:image:width": "1200",
+                    "og:site_name": "Time",
+                    "twitter:url": "https://time.com/6170799/parag-agrawal-twitter-elon-musk/",
+                    "og:description": "Musk will have the power to transform Twitter's executive suite—even the company's CEO is at risk",
+                    "twitter:image": "https://api.time.com/wp-content/uploads/2022/04/Parag-Agrawal.jpg?quality=85&crop=0px%2C527px%2C1600px%2C801px&resize=1200%2C628&strip",
+                    "primary_tag": "companies",
+                    "twitter:site": "@TIME",
+                    "pinterest:media": "https://api.time.com/wp-content/uploads/2022/04/Parag-Agrawal.jpg?quality=85&crop=0px%2C518px%2C1600px%2C836px&resize=1200%2C628&strip",
+                    "article:content_tier": "free",
+                    "pinterest:url": "https://time.com/6170799/parag-agrawal-twitter-elon-musk/",
+                    "og:type": "article",
+                    "twitter:title": "What Elon Musk's Deal Means for Twitter's CEO",
+                    "recaptcha-key": "6LfZrtgZAAAAAJ8n221oa1YgG6cVvoOPgamCm6oT",
+                    "og:title": "What Elon Musk's Deal Means for Twitter's CEO",
+                    "og:image:height": "628",
+                    "fb:pages": "10606591490",
+                    "fb:app_id": "53177223193",
+                    "viewport": "width=device-width, initial-scale=1",
+                    "twitter:description": "Musk will have the power to transform Twitter's executive suite—even the company's CEO is at risk",
+                    "og:url": "https://time.com/6170799/parag-agrawal-twitter-elon-musk/",
+                    "category": "Business",
+                    "format-detection": "telephone=no",
+                    "article:opinion": "false"
+                  }
+                ],
+                "cse_image": [
+                  {
+                    "src": "https://api.time.com/wp-content/uploads/2022/04/Parag-Agrawal.jpg?quality=85&crop=0px%2C518px%2C1600px%2C836px&resize=1200%2C628&strip"
+                  }
+                ]
+              }
+            },
+            {
+              "kind": "customsearch#result",
+              "title": "Elon Musk introduces new Twitter CEO, says he is much better than ...",
+              "htmlTitle": "Elon Musk introduces new \u003cb\u003eTwitter CEO\u003c/b\u003e, says he is much better than ...",
+              "link": "https://www.indiatoday.in/technology/news/story/elon-musk-introduces-new-twitter-ceo-says-he-is-much-better-than-parag-agrawal-2334924-2023-02-15",
+              "displayLink": "www.indiatoday.in",
+              "snippet": "Feb 15, 2023 ... He is Musk's pet dog, Floki, a Shiba Inu. The new Twitter head feels his dog Floki makes a better CEO than the “other guy” Parag Agrawal.",
+              "htmlSnippet": "Feb 15, 2023 \u003cb\u003e...\u003c/b\u003e He is Musk&#39;s pet dog, Floki, a Shiba Inu. The new \u003cb\u003eTwitter\u003c/b\u003e head feels his dog Floki makes a better \u003cb\u003eCEO\u003c/b\u003e than the “other guy” Parag Agrawal.",
+              "cacheId": "TTIcttOAWFgJ",
+              "formattedUrl": "https://www.indiatoday.in/.../elon-musk-introduces-new-twitter-ceo-says-he-is -much-better-than-parag-agrawal-2334924-2023-02-15",
+              "htmlFormattedUrl": "https://www.indiatoday.in/.../elon-musk-introduces-new-\u003cb\u003etwitter\u003c/b\u003e-\u003cb\u003eceo\u003c/b\u003e-says-he-is -much-better-than-parag-agrawal-2334924-2023-02-15",
+              "pagemap": {
+                "cse_thumbnail": [
+                  {
+                    "src": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTdPq98SnglSHRfWHfuBFGLf9i3470I6A55ETNMenxYiqjCjJy5LpP_P6OT",
+                    "width": "300",
+                    "height": "168"
+                  }
+                ],
+                "metatags": [
+                  {
+                    "branch:deeplink:data_type": "story",
+                    "og:image": "https://akm-img-a-in.tosshub.com/indiatoday/images/story/202302/shibaaaaaa-sixteen_nine.jpg?VersionId=3LhLakL1KD7znNIn3yiDXDpxbjEEuezp",
+                    "og:type": "Article",
+                    "twitter:title": "Elon Musk introduces new Twitter CEO, says he is much better than Parag Agrawal ",
+                    "twitter:card": "summary_large_image",
+                    "theme-color": "#C04A4A",
+                    "og:site_name": "India Today",
+                    "branch:deeplink:canonical_identifier": "2334924",
+                    "og:title": "Elon Musk introduces new Twitter CEO, says he is much better than Parag Agrawal ",
+                    "og:updated_time": "2023-02-15T10:50:47+05:30",
+                    "fb:pages": "23230437118",
+                    "og:description": "Musk fired Agarwal as soon as he took over the company in a $44 billion dollar deal. Along with Agrawal, Twitter’s legal head Vijaya Gadde and CFO Nel Segal were also pink-slipped. ",
+                    "twitter:creator": "@indiatoday",
+                    "twitter:image": "https://akm-img-a-in.tosshub.com/indiatoday/images/story/202302/shibaaaaaa-sixteen_nine.jpg?VersionId=3LhLakL1KD7znNIn3yiDXDpxbjEEuezp",
+                    "publish-date": "2023-02-15T09:15:48+05:30",
+                    "facebook-domain-verification": "x2b2m47ooqb2a8vbqusste5bwtjq75",
+                    "next-head-count": "39",
+                    "twitter:site": "@indiatoday",
+                    "viewport": "width=device-width, minimum-scale=1, initial-scale=1.0, maximum-scale=5.0",
+                    "news_keywords": "twitter ceo, twitter parag agrawal,elon musk, twitter",
+                    "twitter:description": "Musk fired Agarwal as soon as he took over the company in a $44 billion dollar deal. Along with Agrawal, Twitter’s legal head Vijaya Gadde and CFO Nel Segal were also pink-slipped. ",
+                    "og:url": "https://www.indiatoday.in/technology/news/story/elon-musk-introduces-new-twitter-ceo-says-he-is-much-better-than-parag-agrawal-2334924-2023-02-15"
+                  }
+                ],
+                "cse_image": [
+                  {
+                    "src": "https://akm-img-a-in.tosshub.com/indiatoday/images/story/202302/shibaaaaaa-sixteen_nine.jpg?VersionId=3LhLakL1KD7znNIn3yiDXDpxbjEEuezp"
+                  }
+                ]
+              }
+            },
+            {
+              "kind": "customsearch#result",
+              "title": "Here's who Elon Musk could pick to be Twitter's next CEO | CNN ...",
+              "htmlTitle": "Here&#39;s who Elon Musk could pick to be \u003cb\u003eTwitter&#39;s\u003c/b\u003e next \u003cb\u003eCEO\u003c/b\u003e | CNN ...",
+              "link": "https://www.cnn.com/2022/12/19/tech/twitter-alternate-ceo/index.html",
+              "displayLink": "www.cnn.com",
+              "snippet": "Dec 19, 2022 ... On paper, Krishnan may be the most obvious choice of the group. He has direct experience working on the Twitter product, having previously ...",
+              "htmlSnippet": "Dec 19, 2022 \u003cb\u003e...\u003c/b\u003e On paper, Krishnan may be the most obvious choice of the group. He has direct experience working on the \u003cb\u003eTwitter\u003c/b\u003e product, having previously&nbsp;...",
+              "formattedUrl": "https://www.cnn.com/2022/12/19/tech/twitter-alternate-ceo/index.html",
+              "htmlFormattedUrl": "https://www.cnn.com/2022/12/19/tech/\u003cb\u003etwitter\u003c/b\u003e-alternate-\u003cb\u003eceo\u003c/b\u003e/index.html",
+              "pagemap": {
+                "cse_thumbnail": [
+                  {
+                    "src": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTDGmlnI7NUWePu4DAV3ELnCC4MD2l6EFeUZH71lCsUQIlFJAtKaMmJ6i1h",
+                    "width": "300",
+                    "height": "168"
+                  }
+                ],
+                "metatags": [
+                  {
+                    "og:image": "https://media.cnn.com/api/v1/images/stellar/prod/221027191352-05-elon-musk-twitter-lead-image.jpg?c=16x9&q=w_800,c_fill",
+                    "twitter:title": "Here's who Elon Musk could pick to be Twitter's next CEO | CNN Business",
+                    "og:type": "article",
+                    "twitter:card": "summary_large_image",
+                    "article:published_time": "2022-12-19T21:15:00Z",
+                    "og:site_name": "CNN",
+                    "author": "Clare Duffy",
+                    "og:title": "Here's who Elon Musk could pick to be Twitter's next CEO | CNN Business",
+                    "meta-section": "business",
+                    "type": "article",
+                    "og:description": "Elon Musk may soon be on the lookout for a new chief executive to run Twitter.",
+                    "twitter:image": "https://media.cnn.com/api/v1/images/stellar/prod/221027191352-05-elon-musk-twitter-lead-image.jpg?c=16x9&q=w_800,c_fill",
+                    "article:publisher": "https://www.facebook.com/CNN",
+                    "article:tag": "banking, finance and investments, business executives, business figures, business, economy and trade, companies, domestic alerts, domestic-business, elon musk, financial markets and investing, iab-business, iab-business administration, iab-business and finance, iab-business banking & finance, iab-computing, iab-executive leadership & management, iab-financial industry, iab-industries, iab-internet, iab-social networking, iab-technology & computing, international alerts, international-business, internet and www, jared kushner, labor and employment, social media, technology, tesla inc, twitter, workers and professionals",
+                    "fb:app_id": "80401312489",
+                    "twitter:site": "@CNNbusiness",
+                    "article:modified_time": "2022-12-19T21:39:44Z",
+                    "viewport": "width=device-width,initial-scale=1,shrink-to-fit=no",
+                    "twitter:description": "Elon Musk may soon be on the lookout for a new chief executive to run Twitter.",
+                    "template_type": "article_leaf",
+                    "theme": "business",
+                    "og:url": "https://www.cnn.com/2022/12/19/tech/twitter-alternate-ceo/index.html"
+                  }
+                ],
+                "cse_image": [
+                  {
+                    "src": "https://media.cnn.com/api/v1/images/stellar/prod/221027191352-05-elon-musk-twitter-lead-image.jpg?c=16x9&q=w_800,c_fill"
+                  }
+                ]
+              }
+            },
+            {
+              "kind": "customsearch#result",
+              "title": "Who is the Twitter CEO? | Shacknews",
+              "htmlTitle": "\u003cb\u003eWho is the Twitter CEO\u003c/b\u003e? | Shacknews",
+              "link": "https://www.shacknews.com/article/131339/who-is-twitter-twtr-ceo",
+              "displayLink": "www.shacknews.com",
+              "snippet": "Nov 2, 2022 ... Elon Musk is the CEO of Twitter. Musk took over as CEO in October 2022 following a back-and-forth affair in which the billionaire proposed to ...",
+              "htmlSnippet": "Nov 2, 2022 \u003cb\u003e...\u003c/b\u003e Elon Musk is the \u003cb\u003eCEO of Twitter\u003c/b\u003e. Musk took over as \u003cb\u003eCEO\u003c/b\u003e in October 2022 following a back-and-forth affair in which the billionaire proposed to&nbsp;...",
+              "cacheId": "BMzQJWaeck8J",
+              "formattedUrl": "https://www.shacknews.com/article/131339/who-is-twitter-twtr-ceo",
+              "htmlFormattedUrl": "https://www.shacknews.com/article/131339/who-is-\u003cb\u003etwitter\u003c/b\u003e-twtr-\u003cb\u003eceo\u003c/b\u003e",
+              "pagemap": {
+                "cse_thumbnail": [
+                  {
+                    "src": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTSs3rD97Z09R6uijNtz7A09_dWB_FowfTTsgNMADLkVE9cJagqKYikWUCi",
+                    "width": "300",
+                    "height": "168"
+                  }
+                ],
+                "metatags": [
+                  {
+                    "msapplication-tilecolor": "#ffffff",
+                    "og:image": "https://d1lss44hh2trtw.cloudfront.net/assets/article/2022/07/13/twitter-logo_feature.png",
+                    "twitter:title": "Who is the Twitter CEO?",
+                    "twitter:card": "summary_large_image",
+                    "theme-color": "#ffffff",
+                    "twitter:site": "@shacknews",
+                    "og:site_name": "Shacknews",
+                    "viewport": "width=device-width, initial-scale=1, maximum-scale=1",
+                    "twitter:description": "Check in and see who the CEO of Twitter (TWTR) is.",
+                    "og:title": "Who is the Twitter CEO?",
+                    "msapplication-tileimage": "https://d1lss44hh2trtw.cloudfront.net/deploy/www-17234c2/images/favicon/ms-icon-144x144.png",
+                    "og:description": "Check in and see who the CEO of Twitter (TWTR) is."
+                  }
+                ],
+                "cse_image": [
+                  {
+                    "src": "https://d1lss44hh2trtw.cloudfront.net/assets/article/2022/07/13/twitter-logo_feature.png"
+                  }
+                ]
+              }
+            },
+            {
+              "kind": "customsearch#result",
+              "title": "Who is Parag Agrawal? The new Twitter CEO replacing Jack Dorsey ...",
+              "htmlTitle": "Who is Parag Agrawal? The new \u003cb\u003eTwitter CEO\u003c/b\u003e replacing Jack Dorsey ...",
+              "link": "https://www.theguardian.com/technology/2021/nov/29/who-is-parag-agrawal-new-twitter-ceo",
+              "displayLink": "www.theguardian.com",
+              "snippet": "Nov 30, 2021 ... Who is Parag Agrawal? The new Twitter CEO replacing Jack Dorsey. The relatively unknown chief technology officer faces a political minefield in ...",
+              "htmlSnippet": "Nov 30, 2021 \u003cb\u003e...\u003c/b\u003e Who is Parag Agrawal? The new \u003cb\u003eTwitter CEO\u003c/b\u003e replacing Jack Dorsey. The relatively unknown chief technology officer faces a political minefield in&nbsp;...",
+              "cacheId": "ZOKSgi4cxUUJ",
+              "formattedUrl": "https://www.theguardian.com/.../29/who-is-parag-agrawal-new-twitter-ceo",
+              "htmlFormattedUrl": "https://www.theguardian.com/.../29/who-is-parag-agrawal-new-\u003cb\u003etwitter\u003c/b\u003e-\u003cb\u003eceo\u003c/b\u003e",
+              "pagemap": {
+                "cse_thumbnail": [
+                  {
+                    "src": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSd5_PgtFJe7I8ndhVLG2BycvZ6uQhTh2Y6pXSDpnSmQU9xIoXstF0Jc4E",
+                    "width": "310",
+                    "height": "163"
+                  }
+                ],
+                "metatags": [
+                  {
+                    "og:image": "https://i.guim.co.uk/img/media/3c6b8e5e7c475a6996ffeba195093d7ee590cbe6/0_442_3318_1991/master/3318.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=3b8784ee27f5e3c3c9ea299ffc006814",
+                    "twitter:app:id:googleplay": "com.guardian",
+                    "twitter:app:url:iphone": "gnmguardian://technology/2021/nov/29/who-is-parag-agrawal-new-twitter-ceo?contenttype=Article&source=twitter",
+                    "theme-color": "#052962",
+                    "og:image:width": "1200",
+                    "article:published_time": "2021-11-30T01:51:42.000Z",
+                    "twitter:card": "summary_large_image",
+                    "og:site_name": "the Guardian",
+                    "twitter:app:url:ipad": "gnmguardian://technology/2021/nov/29/who-is-parag-agrawal-new-twitter-ceo?contenttype=Article&source=twitter",
+                    "twitter:app:name:googleplay": "The Guardian",
+                    "al:ios:url": "gnmguardian://technology/2021/nov/29/who-is-parag-agrawal-new-twitter-ceo?contenttype=Article&source=applinks",
+                    "twitter:app:id:iphone": "409128287",
+                    "og:description": "The relatively unknown chief technology officer faces a political minefield in one of Silicon Valley’s top jobs",
+                    "article:publisher": "https://www.facebook.com/theguardian",
+                    "al:ios:app_store_id": "409128287",
+                    "twitter:dnt": "on",
+                    "twitter:image": "https://i.guim.co.uk/img/media/3c6b8e5e7c475a6996ffeba195093d7ee590cbe6/0_442_3318_1991/master/3318.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&s=ad2ad07591f260e3058e162f3b8add5a",
+                    "twitter:site": "@guardian",
+                    "article:modified_time": "2021-11-30T17:25:38.000Z",
+                    "og:type": "article",
+                    "article:section": "Technology",
+                    "al:ios:app_name": "The Guardian",
+                    "og:title": "Who is Parag Agrawal? The new Twitter CEO replacing Jack Dorsey",
+                    "og:image:height": "720",
+                    "twitter:app:id:ipad": "409128287",
+                    "article:author": "https://www.theguardian.com/profile/kari-paul",
+                    "article:tag": "Twitter,Jack Dorsey,Technology,US news,Internet",
+                    "fb:app_id": "180444840287",
+                    "twitter:app:url:googleplay": "guardian://www.theguardian.com/technology/2021/nov/29/who-is-parag-agrawal-new-twitter-ceo",
+                    "twitter:app:name:ipad": "The Guardian",
+                    "viewport": "width=device-width,minimum-scale=1,initial-scale=1",
+                    "og:url": "https://www.theguardian.com/technology/2021/nov/29/who-is-parag-agrawal-new-twitter-ceo",
+                    "twitter:app:name:iphone": "The Guardian"
+                  }
+                ],
+                "cse_image": [
+                  {
+                    "src": "https://i.guim.co.uk/img/media/3c6b8e5e7c475a6996ffeba195093d7ee590cbe6/0_442_3318_1991/master/3318.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=3b8784ee27f5e3c3c9ea299ffc006814"
+                  }
+                ]
+              }
+            },
+            {
+              "kind": "customsearch#result",
+              "title": "Andy Jassy (@ajassy) / Twitter",
+              "htmlTitle": "Andy Jassy (@ajassy) / \u003cb\u003eTwitter\u003c/b\u003e",
+              "link": "https://twitter.com/ajassy",
+              "displayLink": "twitter.com",
+              "snippet": "Lead Amazon, married and father of two kids, big sports/music/film fan, experienced buffalo wings eater. Go Kraken!",
+              "htmlSnippet": "Lead Amazon, married and father of two kids, big sports/music/film fan, experienced buffalo wings eater. Go Kraken!",
+              "cacheId": "mLtRHA4keRwJ",
+              "formattedUrl": "https://twitter.com/ajassy",
+              "htmlFormattedUrl": "https://\u003cb\u003etwitter\u003c/b\u003e.com/ajassy",
+              "pagemap": {
+                "cse_thumbnail": [
+                  {
+                    "src": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTQWCCKkBj4W6FW2HhrpSQcxe91nW946r3QNvWHL8PzUJjJKOXXUl6yBw",
+                    "width": "48",
+                    "height": "48"
+                  }
+                ],
+                "imageobject": [
+                  {
+                    "contenturl": "https://pbs.twimg.com/media/FrETKpMacAEkZwP.jpg",
+                    "width": "1667",
+                    "caption": "Image",
+                    "thumbnailurl": "https://pbs.twimg.com/media/FrETKpMacAEkZwP?format=jpg&name=thumb"
+                  },
+                  {
+                    "contenturl": "https://pbs.twimg.com/media/Fp_-avbakAAiUhO.jpg",
+                    "width": "4032",
+                    "caption": "Image",
+                    "thumbnailurl": "https://pbs.twimg.com/media/Fp_-avbakAAiUhO?format=jpg&name=thumb"
+                  },
+                  {
+                    "contenturl": "https://pbs.twimg.com/media/FplGHxRakAA50va.jpg",
+                    "width": "1200",
+                    "caption": "Image",
+                    "thumbnailurl": "https://pbs.twimg.com/media/FplGHxRakAA50va?format=jpg&name=thumb"
+                  },
+                  {
+                    "contenturl": "https://pbs.twimg.com/media/FnwQTptXkAA-5bE.jpg",
+                    "width": "4032",
+                    "caption": "Image",
+                    "thumbnailurl": "https://pbs.twimg.com/media/FnwQTptXkAA-5bE?format=jpg&name=thumb"
+                  },
+                  {
+                    "contenturl": "https://pbs.twimg.com/media/FkTSqE5XkAITC29.jpg",
+                    "width": "1170",
+                    "caption": "Image",
+                    "thumbnailurl": "https://pbs.twimg.com/media/FkTSqE5XkAITC29?format=jpg&name=thumb"
+                  },
+                  {
+                    "contenturl": "https://pbs.twimg.com/media/FkTSrA-XEAAksMc.jpg",
+                    "width": "1170",
+                    "caption": "Image",
+                    "thumbnailurl": "https://pbs.twimg.com/media/FkTSrA-XEAAksMc?format=jpg&name=thumb"
+                  },
+                  {
+                    "contenturl": "https://pbs.twimg.com/media/FkHP9VlaEAElCUl.jpg",
+                    "width": "4096",
+                    "caption": "Image",
+                    "thumbnailurl": "https://pbs.twimg.com/media/FkHP9VlaEAElCUl?format=jpg&name=thumb"
+                  },
+                  {
+                    "contenturl": "https://pbs.twimg.com/media/FkHP9VlaEAAAGgx.jpg",
+                    "width": "4096",
+                    "caption": "Image",
+                    "thumbnailurl": "https://pbs.twimg.com/media/FkHP9VlaEAAAGgx?format=jpg&name=thumb"
+                  },
+                  {
+                    "contenturl": "https://pbs.twimg.com/media/FhSoV7iacAA0Xof.jpg",
+                    "width": "4032",
+                    "caption": "Image",
+                    "thumbnailurl": "https://pbs.twimg.com/media/FhSoV7iacAA0Xof?format=jpg&name=thumb"
+                  },
+                  {
+                    "contenturl": "https://pbs.twimg.com/media/FhSoXzaacAInrEC.png",
+                    "width": "757",
+                    "caption": "Image",
+                    "thumbnailurl": "https://pbs.twimg.com/media/FhSoXzaacAInrEC?format=jpg&name=thumb"
+                  },
+                  {
+                    "contenturl": "https://pbs.twimg.com/media/FfhETrXaYAAcdWx.jpg",
+                    "width": "2000",
+                    "caption": "Image",
+                    "thumbnailurl": "https://pbs.twimg.com/media/FfhETrXaYAAcdWx?format=jpg&name=thumb"
+                  },
+                  {
+                    "contenturl": "https://pbs.twimg.com/media/FfhEXiuagAAYJo1.jpg",
+                    "width": "2000",
+                    "caption": "Image",
+                    "thumbnailurl": "https://pbs.twimg.com/media/FfhEXiuagAAYJo1?format=jpg&name=thumb"
+                  },
+                  {
+                    "contenturl": "https://pbs.twimg.com/media/FevIDLSWYBM6hFW.jpg",
+                    "width": "4096",
+                    "caption": "Image",
+                    "thumbnailurl": "https://pbs.twimg.com/media/FevIDLSWYBM6hFW?format=jpg&name=thumb"
+                  },
+                  {
+                    "contenturl": "https://pbs.twimg.com/media/FdtPxoBagAAPdmP.jpg",
+                    "width": "1024",
+                    "caption": "Image",
+                    "thumbnailurl": "https://pbs.twimg.com/media/FdtPxoBagAAPdmP?format=jpg&name=thumb"
+                  },
+                  {
+                    "contenturl": "https://pbs.twimg.com/media/FdNl2vHagAEyt05.jpg",
+                    "width": "3024",
+                    "caption": "Image",
+                    "thumbnailurl": "https://pbs.twimg.com/media/FdNl2vHagAEyt05?format=jpg&name=thumb"
+                  },
+                  {
+                    "contenturl": "https://pbs.twimg.com/media/FcvF-graMAAL7bW.jpg",
+                    "width": "3556",
+                    "caption": "Image",
+                    "thumbnailurl": "https://pbs.twimg.com/media/FcvF-graMAAL7bW?format=jpg&name=thumb"
+                  },
+                  {
+                    "contenturl": "https://pbs.twimg.com/media/FcJld7qWIAA-CUu.jpg",
+                    "width": "2000",
+                    "caption": "Image",
+                    "thumbnailurl": "https://pbs.twimg.com/media/FcJld7qWIAA-CUu?format=jpg&name=thumb"
+                  },
+                  {
+                    "contenturl": "https://pbs.twimg.com/media/FaS2rf3VQAAKeCn.jpg",
+                    "width": "2782",
+                    "caption": "Image",
+                    "thumbnailurl": "https://pbs.twimg.com/media/FaS2rf3VQAAKeCn?format=jpg&name=thumb"
+                  },
+                  {
+                    "contenturl": "https://pbs.twimg.com/media/FZgcveVVsAAX8Rz.jpg",
+                    "width": "1078",
+                    "caption": "Image",
+                    "thumbnailurl": "https://pbs.twimg.com/media/FZgcveVVsAAX8Rz?format=jpg&name=thumb"
+                  },
+                  {
+                    "contenturl": "https://pbs.twimg.com/media/FZGl5M_UEAEe_LJ.jpg",
+                    "width": "2048",
+                    "caption": "Image",
+                    "thumbnailurl": "https://pbs.twimg.com/media/FZGl5M_UEAEe_LJ?format=jpg&name=thumb"
+                  },
+                  {
+                    "contenturl": "https://pbs.twimg.com/media/FZGl5NCUEAAX4d9.jpg",
+                    "width": "2048",
+                    "caption": "Image",
+                    "thumbnailurl": "https://pbs.twimg.com/media/FZGl5NCUEAAX4d9?format=jpg&name=thumb"
+                  },
+                  {
+                    "contenturl": "https://pbs.twimg.com/media/FZGl5NBUUAIngi2.jpg",
+                    "width": "842",
+                    "caption": "Image",
+                    "thumbnailurl": "https://pbs.twimg.com/media/FZGl5NBUUAIngi2?format=jpg&name=thumb"
+                  },
+                  {
+                    "contenturl": "https://pbs.twimg.com/media/FZGl5M_UYAAQ3xx.jpg",
+                    "width": "2048",
+                    "caption": "Image",
+                    "thumbnailurl": "https://pbs.twimg.com/media/FZGl5M_UYAAQ3xx?format=jpg&name=thumb"
+                  },
+                  {
+                    "contenturl": "https://pbs.twimg.com/media/FYMeJ34VsAAea8d.jpg",
+                    "width": "4096",
+                    "caption": "Image",
+                    "thumbnailurl": "https://pbs.twimg.com/media/FYMeJ34VsAAea8d?format=jpg&name=thumb"
+                  },
+                  {
+                    "contenturl": "https://pbs.twimg.com/media/FYMeLppUIAEKP3f.jpg",
+                    "width": "4096",
+                    "caption": "Image",
+                    "thumbnailurl": "https://pbs.twimg.com/media/FYMeLppUIAEKP3f?format=jpg&name=thumb"
+                  },
+                  {
+                    "contenturl": "https://pbs.twimg.com/media/FYMeOULVUAUk9QA.jpg",
+                    "width": "4096",
+                    "caption": "Image",
+                    "thumbnailurl": "https://pbs.twimg.com/media/FYMeOULVUAUk9QA?format=jpg&name=thumb"
+                  },
+                  {
+                    "contenturl": "https://pbs.twimg.com/media/FYMePwKUIAAhcpQ.jpg",
+                    "width": "4096",
+                    "caption": "Image",
+                    "thumbnailurl": "https://pbs.twimg.com/media/FYMePwKUIAAhcpQ?format=jpg&name=thumb"
+                  }
+                ],
+                "person": [
+                  {
+                    "identifier": "26389359",
+                    "givenname": "Andy Jassy",
+                    "disambiguatingdescription": "verified,Amazon",
+                    "additionalname": "ajassy"
+                  },
+                  {
+                    "identifier": "26389359",
+                    "givenname": "Andy Jassy",
+                    "disambiguatingdescription": "verified,Amazon",
+                    "additionalname": "ajassy"
+                  },
+                  {
+                    "identifier": "26389359",
+                    "givenname": "Andy Jassy",
+                    "disambiguatingdescription": "verified,Amazon",
+                    "additionalname": "ajassy"
+                  },
+                  {
+                    "identifier": "26389359",
+                    "givenname": "Andy Jassy",
+                    "disambiguatingdescription": "verified,Amazon",
+                    "additionalname": "ajassy"
+                  },
+                  {
+                    "identifier": "26389359",
+                    "givenname": "Andy Jassy",
+                    "disambiguatingdescription": "verified,Amazon",
+                    "additionalname": "ajassy"
+                  },
+                  {
+                    "identifier": "26389359",
+                    "givenname": "Andy Jassy",
+                    "disambiguatingdescription": "verified,Amazon",
+                    "additionalname": "ajassy"
+                  },
+                  {
+                    "identifier": "26389359",
+                    "givenname": "Andy Jassy",
+                    "disambiguatingdescription": "verified,Amazon",
+                    "additionalname": "ajassy"
+                  },
+                  {
+                    "identifier": "26389359",
+                    "givenname": "Andy Jassy",
+                    "disambiguatingdescription": "verified,Amazon",
+                    "additionalname": "ajassy"
+                  },
+                  {
+                    "identifier": "26389359",
+                    "givenname": "Andy Jassy",
+                    "disambiguatingdescription": "verified,Amazon",
+                    "additionalname": "ajassy"
+                  },
+                  {
+                    "identifier": "26389359",
+                    "givenname": "Andy Jassy",
+                    "disambiguatingdescription": "verified,Amazon",
+                    "additionalname": "ajassy"
+                  },
+                  {
+                    "identifier": "26389359",
+                    "givenname": "Andy Jassy",
+                    "disambiguatingdescription": "verified,Amazon",
+                    "additionalname": "ajassy"
+                  },
+                  {
+                    "identifier": "26389359",
+                    "givenname": "Andy Jassy",
+                    "disambiguatingdescription": "verified,Amazon",
+                    "additionalname": "ajassy"
+                  },
+                  {
+                    "identifier": "26389359",
+                    "givenname": "Andy Jassy",
+                    "disambiguatingdescription": "verified,Amazon",
+                    "additionalname": "ajassy"
+                  },
+                  {
+                    "identifier": "26389359",
+                    "givenname": "Andy Jassy",
+                    "disambiguatingdescription": "verified,Amazon",
+                    "additionalname": "ajassy"
+                  },
+                  {
+                    "identifier": "26389359",
+                    "givenname": "Andy Jassy",
+                    "disambiguatingdescription": "verified,Amazon",
+                    "additionalname": "ajassy"
+                  },
+                  {
+                    "identifier": "26389359",
+                    "givenname": "Andy Jassy",
+                    "disambiguatingdescription": "verified,Amazon",
+                    "additionalname": "ajassy"
+                  },
+                  {
+                    "identifier": "26389359",
+                    "givenname": "Andy Jassy",
+                    "disambiguatingdescription": "verified,Amazon",
+                    "additionalname": "ajassy"
+                  },
+                  {
+                    "identifier": "26389359",
+                    "givenname": "Andy Jassy",
+                    "disambiguatingdescription": "verified,Amazon",
+                    "additionalname": "ajassy"
+                  },
+                  {
+                    "identifier": "26389359",
+                    "givenname": "Andy Jassy",
+                    "disambiguatingdescription": "verified,Amazon",
+                    "additionalname": "ajassy"
+                  },
+                  {
+                    "identifier": "26389359",
+                    "givenname": "Andy Jassy",
+                    "disambiguatingdescription": "verified,Amazon",
+                    "additionalname": "ajassy"
+                  },
+                  {
+                    "identifier": "26389359",
+                    "givenname": "Andy Jassy",
+                    "disambiguatingdescription": "verified,Amazon",
+                    "additionalname": "ajassy"
+                  },
+                  {
+                    "identifier": "26389359",
+                    "givenname": "Andy Jassy",
+                    "disambiguatingdescription": "verified,Amazon",
+                    "additionalname": "ajassy"
+                  },
+                  {
+                    "identifier": "26389359",
+                    "givenname": "Andy Jassy",
+                    "disambiguatingdescription": "verified,Amazon",
+                    "additionalname": "ajassy"
+                  },
+                  {
+                    "identifier": "26389359",
+                    "givenname": "Andy Jassy",
+                    "disambiguatingdescription": "verified,Amazon",
+                    "additionalname": "ajassy"
+                  },
+                  {
+                    "identifier": "26389359",
+                    "givenname": "Andy Jassy",
+                    "disambiguatingdescription": "verified,Amazon",
+                    "additionalname": "ajassy"
+                  },
+                  {
+                    "identifier": "26389359",
+                    "givenname": "Andy Jassy",
+                    "disambiguatingdescription": "verified,Amazon",
+                    "additionalname": "ajassy"
+                  },
+                  {
+                    "identifier": "26389359",
+                    "givenname": "Andy Jassy",
+                    "disambiguatingdescription": "verified,Amazon",
+                    "additionalname": "ajassy"
+                  },
+                  {
+                    "identifier": "26389359",
+                    "givenname": "Andy Jassy",
+                    "disambiguatingdescription": "verified,Amazon",
+                    "additionalname": "ajassy"
+                  },
+                  {
+                    "identifier": "26389359",
+                    "givenname": "Andy Jassy",
+                    "disambiguatingdescription": "verified,Amazon",
+                    "additionalname": "ajassy"
+                  },
+                  {
+                    "identifier": "26389359",
+                    "givenname": "Andy Jassy",
+                    "disambiguatingdescription": "verified,Amazon",
+                    "additionalname": "ajassy"
+                  },
+                  {
+                    "identifier": "26389359",
+                    "givenname": "Andy Jassy",
+                    "disambiguatingdescription": "verified,Amazon",
+                    "additionalname": "ajassy"
+                  },
+                  {
+                    "identifier": "26389359",
+                    "givenname": "Andy Jassy",
+                    "disambiguatingdescription": "verified,Amazon",
+                    "additionalname": "ajassy"
+                  },
+                  {
+                    "identifier": "26389359",
+                    "givenname": "Andy Jassy",
+                    "disambiguatingdescription": "verified,Amazon",
+                    "additionalname": "ajassy"
+                  },
+                  {
+                    "identifier": "26389359",
+                    "givenname": "Andy Jassy",
+                    "disambiguatingdescription": "verified,Amazon",
+                    "additionalname": "ajassy"
+                  },
+                  {
+                    "identifier": "26389359",
+                    "givenname": "Andy Jassy",
+                    "disambiguatingdescription": "verified,Amazon",
+                    "additionalname": "ajassy"
+                  },
+                  {
+                    "identifier": "26389359",
+                    "givenname": "Andy Jassy",
+                    "disambiguatingdescription": "verified,Amazon",
+                    "additionalname": "ajassy"
+                  },
+                  {
+                    "identifier": "26389359",
+                    "givenname": "Andy Jassy",
+                    "disambiguatingdescription": "verified,Amazon",
+                    "additionalname": "ajassy"
+                  },
+                  {
+                    "identifier": "26389359",
+                    "givenname": "Andy Jassy",
+                    "disambiguatingdescription": "verified,Amazon",
+                    "additionalname": "ajassy"
+                  },
+                  {
+                    "identifier": "26389359",
+                    "givenname": "Andy Jassy",
+                    "disambiguatingdescription": "verified,Amazon",
+                    "additionalname": "ajassy"
+                  },
+                  {
+                    "identifier": "26389359",
+                    "givenname": "Andy Jassy",
+                    "disambiguatingdescription": "verified,Amazon",
+                    "additionalname": "ajassy"
+                  }
+                ],
+                "interactioncounter": [
+                  {
+                    "userinteractioncount": "193",
+                    "interactiontype": "https://schema.org/LikeAction",
+                    "name": "Likes",
+                    "url": "https://twitter.com/ajassy/status/1643642188876886017/likes"
+                  },
+                  {
+                    "userinteractioncount": "30",
+                    "interactiontype": "https://schema.org/InteractAction",
+                    "name": "Retweets",
+                    "url": "https://twitter.com/ajassy/status/1643642188876886017/retweets"
+                  },
+                  {
+                    "userinteractioncount": "6",
+                    "interactiontype": "https://schema.org/InteractAction",
+                    "name": "Quotes",
+                    "url": "https://twitter.com/ajassy/status/1643642188876886017/retweets/with_comments"
+                  },
+                  {
+                    "userinteractioncount": "40",
+                    "interactiontype": "https://schema.org/InteractAction",
+                    "name": "Replies",
+                    "url": "https://twitter.com/ajassy/status/1643642188876886017"
+                  },
+                  {
+                    "userinteractioncount": "650",
+                    "interactiontype": "https://schema.org/LikeAction",
+                    "name": "Likes",
+                    "url": "https://twitter.com/ajassy/status/1641459023563362306/likes"
+                  },
+                  {
+                    "userinteractioncount": "94",
+                    "interactiontype": "https://schema.org/InteractAction",
+                    "name": "Retweets",
+                    "url": "https://twitter.com/ajassy/status/1641459023563362306/retweets"
+                  },
+                  {
+                    "userinteractioncount": "15",
+                    "interactiontype": "https://schema.org/InteractAction",
+                    "name": "Quotes",
+                    "url": "https://twitter.com/ajassy/status/1641459023563362306/retweets/with_comments"
+                  },
+                  {
+                    "userinteractioncount": "77",
+                    "interactiontype": "https://schema.org/InteractAction",
+                    "name": "Replies",
+                    "url": "https://twitter.com/ajassy/status/1641459023563362306"
+                  },
+                  {
+                    "userinteractioncount": "151",
+                    "interactiontype": "https://schema.org/LikeAction",
+                    "name": "Likes",
+                    "url": "https://twitter.com/ajassy/status/1638526662701879297/likes"
+                  },
+                  {
+                    "userinteractioncount": "28",
+                    "interactiontype": "https://schema.org/InteractAction",
+                    "name": "Retweets",
+                    "url": "https://twitter.com/ajassy/status/1638526662701879297/retweets"
+                  },
+                  {
+                    "userinteractioncount": "30",
+                    "interactiontype": "https://schema.org/InteractAction",
+                    "name": "Quotes",
+                    "url": "https://twitter.com/ajassy/status/1638526662701879297/retweets/with_comments"
+                  },
+                  {
+                    "userinteractioncount": "68",
+                    "interactiontype": "https://schema.org/InteractAction",
+                    "name": "Replies",
+                    "url": "https://twitter.com/ajassy/status/1638526662701879297"
+                  },
+                  {
+                    "userinteractioncount": "201",
+                    "interactiontype": "https://schema.org/LikeAction",
+                    "name": "Likes",
+                    "url": "https://twitter.com/ajassy/status/1635649475082612737/likes"
+                  },
+                  {
+                    "userinteractioncount": "50",
+                    "interactiontype": "https://schema.org/InteractAction",
+                    "name": "Retweets",
+                    "url": "https://twitter.com/ajassy/status/1635649475082612737/retweets"
+                  },
+                  {
+                    "userinteractioncount": "9",
+                    "interactiontype": "https://schema.org/InteractAction",
+                    "name": "Quotes",
+                    "url": "https://twitter.com/ajassy/status/1635649475082612737/retweets/with_comments"
+                  },
+                  {
+                    "userinteractioncount": "52",
+                    "interactiontype": "https://schema.org/InteractAction",
+                    "name": "Replies",
+                    "url": "https://twitter.com/ajassy/status/1635649475082612737"
+                  },
+                  {
+                    "userinteractioncount": "171",
+                    "interactiontype": "https://schema.org/LikeAction",
+                    "name": "Likes",
+                    "url": "https://twitter.com/ajassy/status/1635120537205891074/likes"
+                  },
+                  {
+                    "userinteractioncount": "17",
+                    "interactiontype": "https://schema.org/InteractAction",
+                    "name": "Retweets",
+                    "url": "https://twitter.com/ajassy/status/1635120537205891074/retweets"
+                  },
+                  {
+                    "userinteractioncount": "5",
+                    "interactiontype": "https://schema.org/InteractAction",
+                    "name": "Quotes",
+                    "url": "https://twitter.com/ajassy/status/1635120537205891074/retweets/with_comments"
+                  },
+                  {
+                    "userinteractioncount": "69",
+                    "interactiontype": "https://schema.org/InteractAction",
+                    "name": "Replies",
+                    "url": "https://twitter.com/ajassy/status/1635120537205891074"
+                  },
+                  {
+                    "userinteractioncount": "1446",
+                    "interactiontype": "https://schema.org/LikeAction",
+                    "name": "Likes",
+                    "url": "https://twitter.com/ajassy/status/1630301777185898496/likes"
+                  },
+                  {
+                    "userinteractioncount": "146",
+                    "interactiontype": "https://schema.org/InteractAction",
+                    "name": "Retweets",
+                    "url": "https://twitter.com/ajassy/status/1630301777185898496/retweets"
+                  },
+                  {
+                    "userinteractioncount": "21",
+                    "interactiontype": "https://schema.org/InteractAction",
+                    "name": "Quotes",
+                    "url": "https://twitter.com/ajassy/status/1630301777185898496/retweets/with_comments"
+                  },
+                  {
+                    "userinteractioncount": "120",
+                    "interactiontype": "https://schema.org/InteractAction",
+                    "name": "Replies",
+                    "url": "https://twitter.com/ajassy/status/1630301777185898496"
+                  },
+                  {
+                    "userinteractioncount": "426",
+                    "interactiontype": "https://schema.org/LikeAction",
+                    "name": "Likes",
+                    "url": "https://twitter.com/ajassy/status/1628410029518000128/likes"
+                  },
+                  {
+                    "userinteractioncount": "70",
+                    "interactiontype": "https://schema.org/InteractAction",
+                    "name": "Retweets",
+                    "url": "https://twitter.com/ajassy/status/1628410029518000128/retweets"
+                  },
+                  {
+                    "userinteractioncount": "21",
+                    "interactiontype": "https://schema.org/InteractAction",
+                    "name": "Quotes",
+                    "url": "https://twitter.com/ajassy/status/1628410029518000128/retweets/with_comments"
+                  },
+                  {
+                    "userinteractioncount": "60",
+                    "interactiontype": "https://schema.org/InteractAction",
+                    "name": "Replies",
+                    "url": "https://twitter.com/ajassy/status/1628410029518000128"
+                  },
+                  {
+                    "userinteractioncount": "301",
+                    "interactiontype": "https://schema.org/LikeAction",
+                    "name": "Likes",
+                    "url": "https://twitter.com/ajassy/status/1625507746648047618/likes"
+                  },
+                  {
+                    "userinteractioncount": "33",
+                    "interactiontype": "https://schema.org/InteractAction",
+                    "name": "Retweets",
+                    "url": "https://twitter.com/ajassy/status/1625507746648047618/retweets"
+                  },
+                  {
+                    "userinteractioncount": "3",
+                    "interactiontype": "https://schema.org/InteractAction",
+                    "name": "Quotes",
+                    "url": "https://twitter.com/ajassy/status/1625507746648047618/retweets/with_comments"
+                  },
+                  {
+                    "userinteractioncount": "56",
+                    "interactiontype": "https://schema.org/InteractAction",
+                    "name": "Replies",
+                    "url": "https://twitter.com/ajassy/status/1625507746648047618"
+                  },
+                  {
+                    "userinteractioncount": "1665",
+                    "interactiontype": "https://schema.org/LikeAction",
+                    "name": "Likes",
+                    "url": "https://twitter.com/ajassy/status/1622739218207510529/likes"
+                  },
+                  {
+                    "userinteractioncount": "360",
+                    "interactiontype": "https://schema.org/InteractAction",
+                    "name": "Retweets",
+                    "url": "https://twitter.com/ajassy/status/1622739218207510529/retweets"
+                  },
+                  {
+                    "userinteractioncount": "46",
+                    "interactiontype": "https://schema.org/InteractAction",
+                    "name": "Quotes",
+                    "url": "https://twitter.com/ajassy/status/1622739218207510529/retweets/with_comments"
+                  },
+                  {
+                    "userinteractioncount": "164",
+                    "interactiontype": "https://schema.org/InteractAction",
+                    "name": "Replies",
+                    "url": "https://twitter.com/ajassy/status/1622739218207510529"
+                  },
+                  {
+                    "userinteractioncount": "122",
+                    "interactiontype": "https://schema.org/LikeAction",
+                    "name": "Likes",
+                    "url": "https://twitter.com/ajassy/status/1620954323160281089/likes"
+                  },
+                  {
+                    "userinteractioncount": "9",
+                    "interactiontype": "https://schema.org/InteractAction",
+                    "name": "Retweets",
+                    "url": "https://twitter.com/ajassy/status/1620954323160281089/retweets"
+                  },
+                  {
+                    "userinteractioncount": "0",
+                    "interactiontype": "https://schema.org/InteractAction",
+                    "name": "Quotes",
+                    "url": "https://twitter.com/ajassy/status/1620954323160281089/retweets/with_comments"
+                  },
+                  {
+                    "userinteractioncount": "43",
+                    "interactiontype": "https://schema.org/InteractAction",
+                    "name": "Replies",
+                    "url": "https://twitter.com/ajassy/status/1620954323160281089"
+                  },
+                  {
+                    "userinteractioncount": "418",
+                    "interactiontype": "https://schema.org/LikeAction",
+                    "name": "Likes",
+                    "url": "https://twitter.com/ajassy/status/1617884854460518404/likes"
+                  },
+                  {
+                    "userinteractioncount": "95",
+                    "interactiontype": "https://schema.org/InteractAction",
+                    "name": "Retweets",
+                    "url": "https://twitter.com/ajassy/status/1617884854460518404/retweets"
+                  },
+                  {
+                    "userinteractioncount": "36",
+                    "interactiontype": "https://schema.org/InteractAction",
+                    "name": "Quotes",
+                    "url": "https://twitter.com/ajassy/status/1617884854460518404/retweets/with_comments"
+                  },
+                  {
+                    "userinteractioncount": "179",
+                    "interactiontype": "https://schema.org/InteractAction",
+                    "name": "Replies",
+                    "url": "https://twitter.com/ajassy/status/1617884854460518404"
+                  },
+                  {
+                    "userinteractioncount": "169",
+                    "interactiontype": "https://schema.org/LikeAction",
+                    "name": "Likes",
+                    "url": "https://twitter.com/ajassy/status/1615014827520581632/likes"
+                  },
+                  {
+                    "userinteractioncount": "15",
+                    "interactiontype": "https://schema.org/InteractAction",
+                    "name": "Retweets",
+                    "url": "https://twitter.com/ajassy/status/1615014827520581632/retweets"
+                  },
+                  {
+                    "userinteractioncount": "9",
+                    "interactiontype": "https://schema.org/InteractAction",
+                    "name": "Quotes",
+                    "url": "https://twitter.com/ajassy/status/1615014827520581632/retweets/with_comments"
+                  },
+                  {
+                    "userinteractioncount": "65",
+                    "interactiontype": "https://schema.org/InteractAction",
+                    "name": "Replies",
+                    "url": "https://twitter.com/ajassy/status/1615014827520581632"
+                  },
+                  {
+                    "userinteractioncount": "450",
+                    "interactiontype": "https://schema.org/LikeAction",
+                    "name": "Likes",
+                    "url": "https://twitter.com/ajassy/status/1612938396594475008/likes"
+                  },
+                  {
+                    "userinteractioncount": "57",
+                    "interactiontype": "https://schema.org/InteractAction",
+                    "name": "Retweets",
+                    "url": "https://twitter.com/ajassy/status/1612938396594475008/retweets"
+                  },
+                  {
+                    "userinteractioncount": "18",
+                    "interactiontype": "https://schema.org/InteractAction",
+                    "name": "Quotes",
+                    "url": "https://twitter.com/ajassy/status/1612938396594475008/retweets/with_comments"
+                  },
+                  {
+                    "userinteractioncount": "59",
+                    "interactiontype": "https://schema.org/InteractAction",
+                    "name": "Replies",
+                    "url": "https://twitter.com/ajassy/status/1612938396594475008"
+                  },
+                  {
+                    "userinteractioncount": "295",
+                    "interactiontype": "https://schema.org/LikeAction",
+                    "name": "Likes",
+                    "url": "https://twitter.com/ajassy/status/1609207906263760901/likes"
+                  },
+                  {
+                    "userinteractioncount": "32",
+                    "interactiontype": "https://schema.org/InteractAction",
+                    "name": "Retweets",
+                    "url": "https://twitter.com/ajassy/status/1609207906263760901/retweets"
+                  },
+                  {
+                    "userinteractioncount": "6",
+                    "interactiontype": "https://schema.org/InteractAction",
+                    "name": "Quotes",
+                    "url": "https://twitter.com/ajassy/status/1609207906263760901/retweets/with_comments"
+                  },
+                  {
+                    "userinteractioncount": "44",
+                    "interactiontype": "https://schema.org/InteractAction",
+                    "name": "Replies",
+                    "url": "https://twitter.com/ajassy/status/1609207906263760901"
+                  },
+                  {
+                    "userinteractioncount": "725",
+                    "interactiontype": "https://schema.org/LikeAction",
+                    "name": "Likes",
+                    "url": "https://twitter.com/ajassy/status/1605227280691003392/likes"
+                  },
+                  {
+                    "userinteractioncount": "77",
+                    "interactiontype": "https://schema.org/InteractAction",
+                    "name": "Retweets",
+                    "url": "https://twitter.com/ajassy/status/1605227280691003392/retweets"
+                  },
+                  {
+                    "userinteractioncount": "7",
+                    "interactiontype": "https://schema.org/InteractAction",
+                    "name": "Quotes",
+                    "url": "https://twitter.com/ajassy/status/1605227280691003392/retweets/with_comments"
+                  },
+                  {
+                    "userinteractioncount": "79",
+                    "interactiontype": "https://schema.org/InteractAction",
+                    "name": "Replies",
+                    "url": "https://twitter.com/ajassy/status/1605227280691003392"
+                  },
+                  {
+                    "userinteractioncount": "204",
+                    "interactiontype": "https://schema.org/LikeAction",
+                    "name": "Likes",
+                    "url": "https://twitter.com/ajassy/status/1603792146020339712/likes"
+                  },
+                  {
+                    "userinteractioncount": "16",
+                    "interactiontype": "https://schema.org/InteractAction",
+                    "name": "Retweets",
+                    "url": "https://twitter.com/ajassy/status/1603792146020339712/retweets"
+                  },
+                  {
+                    "userinteractioncount": "2",
+                    "interactiontype": "https://schema.org/InteractAction",
+                    "name": "Quotes",
+                    "url": "https://twitter.com/ajassy/status/1603792146020339712/retweets/with_comments"
+                  },
+                  {
+                    "userinteractioncount": "28",
+                    "interactiontype": "https://schema.org/InteractAction",
+                    "name": "Replies",
+                    "url": "https://twitter.com/ajassy/status/1603792146020339712"
+                  },
+                  {
+                    "userinteractioncount": "219",
+                    "interactiontype": "https://schema.org/LikeAction",
+                    "name": "Likes",
+                    "url": "https://twitter.com/ajassy/status/1600299482494939136/likes"
+                  },
+                  {
+                    "userinteractioncount": "25",
+                    "interactiontype": "https://schema.org/InteractAction",
+                    "name": "Retweets",
+                    "url": "https://twitter.com/ajassy/status/1600299482494939136/retweets"
+                  },
+                  {
+                    "userinteractioncount": "4",
+                    "interactiontype": "https://schema.org/InteractAction",
+                    "name": "Quotes",
+                    "url": "https://twitter.com/ajassy/status/1600299482494939136/retweets/with_comments"
+                  },
+                  {
+                    "userinteractioncount": "48",
+                    "interactiontype": "https://schema.org/InteractAction",
+                    "name": "Replies",
+                    "url": "https://twitter.com/ajassy/status/1600299482494939136"
+                  },
+                  {
+                    "userinteractioncount": "285",
+                    "interactiontype": "https://schema.org/LikeAction",
+                    "name": "Likes",
+                    "url": "https://twitter.com/ajassy/status/1591081811161264130/likes"
+                  },
+                  {
+                    "userinteractioncount": "23",
+                    "interactiontype": "https://schema.org/InteractAction",
+                    "name": "Retweets",
+                    "url": "https://twitter.com/ajassy/status/1591081811161264130/retweets"
+                  },
+                  {
+                    "userinteractioncount": "2",
+                    "interactiontype": "https://schema.org/InteractAction",
+                    "name": "Quotes",
+                    "url": "https://twitter.com/ajassy/status/1591081811161264130/retweets/with_comments"
+                  },
+                  {
+                    "userinteractioncount": "105",
+                    "interactiontype": "https://schema.org/InteractAction",
+                    "name": "Replies",
+                    "url": "https://twitter.com/ajassy/status/1591081811161264130"
+                  },
+                  {
+                    "userinteractioncount": "278",
+                    "interactiontype": "https://schema.org/LikeAction",
+                    "name": "Likes",
+                    "url": "https://twitter.com/ajassy/status/1587449674277191680/likes"
+                  },
+                  {
+                    "userinteractioncount": "38",
+                    "interactiontype": "https://schema.org/InteractAction",
+                    "name": "Retweets",
+                    "url": "https://twitter.com/ajassy/status/1587449674277191680/retweets"
+                  },
+                  {
+                    "userinteractioncount": "25",
+                    "interactiontype": "https://schema.org/InteractAction",
+                    "name": "Quotes",
+                    "url": "https://twitter.com/ajassy/status/1587449674277191680/retweets/with_comments"
+                  },
+                  {
+                    "userinteractioncount": "259",
+                    "interactiontype": "https://schema.org/InteractAction",
+                    "name": "Replies",
+                    "url": "https://twitter.com/ajassy/status/1587449674277191680"
+                  },
+                  {
+                    "userinteractioncount": "257",
+                    "interactiontype": "https://schema.org/LikeAction",
+                    "name": "Likes",
+                    "url": "https://twitter.com/ajassy/status/1583090508943200256/likes"
+                  },
+                  {
+                    "userinteractioncount": "25",
+                    "interactiontype": "https://schema.org/InteractAction",
+                    "name": "Retweets",
+                    "url": "https://twitter.com/ajassy/status/1583090508943200256/retweets"
+                  },
+                  {
+                    "userinteractioncount": "2",
+                    "interactiontype": "https://schema.org/InteractAction",
+                    "name": "Quotes",
+                    "url": "https://twitter.com/ajassy/status/1583090508943200256/retweets/with_comments"
+                  },
+                  {
+                    "userinteractioncount": "96",
+                    "interactiontype": "https://schema.org/InteractAction",
+                    "name": "Replies",
+                    "url": "https://twitter.com/ajassy/status/1583090508943200256"
+                  },
+                  {
+                    "userinteractioncount": "144",
+                    "interactiontype": "https://schema.org/LikeAction",
+                    "name": "Likes",
+                    "url": "https://twitter.com/ajassy/status/1582173599250931712/likes"
+                  },
+                  {
+                    "userinteractioncount": "25",
+                    "interactiontype": "https://schema.org/InteractAction",
+                    "name": "Retweets",
+                    "url": "https://twitter.com/ajassy/status/1582173599250931712/retweets"
+                  },
+                  {
+                    "userinteractioncount": "7",
+                    "interactiontype": "https://schema.org/InteractAction",
+                    "name": "Quotes",
+                    "url": "https://twitter.com/ajassy/status/1582173599250931712/retweets/with_comments"
+                  },
+                  {
+                    "userinteractioncount": "52",
+                    "interactiontype": "https://schema.org/InteractAction",
+                    "name": "Replies",
+                    "url": "https://twitter.com/ajassy/status/1582173599250931712"
+                  },
+                  {
+                    "userinteractioncount": "126",
+                    "interactiontype": "https://schema.org/LikeAction",
+                    "name": "Likes",
+                    "url": "https://twitter.com/ajassy/status/1580229970135506945/likes"
+                  },
+                  {
+                    "userinteractioncount": "36",
+                    "interactiontype": "https://schema.org/InteractAction",
+                    "name": "Retweets",
+                    "url": "https://twitter.com/ajassy/status/1580229970135506945/retweets"
+                  },
+                  {
+                    "userinteractioncount": "5",
+                    "interactiontype": "https://schema.org/InteractAction",
+                    "name": "Quotes",
+                    "url": "https://twitter.com/ajassy/status/1580229970135506945/retweets/with_comments"
+                  },
+                  {
+                    "userinteractioncount": "54",
+                    "interactiontype": "https://schema.org/InteractAction",
+                    "name": "Replies",
+                    "url": "https://twitter.com/ajassy/status/1580229970135506945"
+                  },
+                  {
+                    "userinteractioncount": "167",
+                    "interactiontype": "https://schema.org/LikeAction",
+                    "name": "Likes",
+                    "url": "https://twitter.com/ajassy/status/1579785436243070977/likes"
+                  },
+                  {
+                    "userinteractioncount": "24",
+                    "interactiontype": "https://schema.org/InteractAction",
+                    "name": "Retweets",
+                    "url": "https://twitter.com/ajassy/status/1579785436243070977/retweets"
+                  },
+                  {
+                    "userinteractioncount": "4",
+                    "interactiontype": "https://schema.org/InteractAction",
+                    "name": "Quotes",
+                    "url": "https://twitter.com/ajassy/status/1579785436243070977/retweets/with_comments"
+                  },
+                  {
+                    "userinteractioncount": "96",
+                    "interactiontype": "https://schema.org/InteractAction",
+                    "name": "Replies",
+                    "url": "https://twitter.com/ajassy/status/1579785436243070977"
+                  },
+                  {
+                    "userinteractioncount": "175",
+                    "interactiontype": "https://schema.org/LikeAction",
+                    "name": "Likes",
+                    "url": "https://twitter.com/ajassy/status/1579576205183168513/likes"
+                  },
+                  {
+                    "userinteractioncount": "18",
+                    "interactiontype": "https://schema.org/InteractAction",
+                    "name": "Retweets",
+                    "url": "https://twitter.com/ajassy/status/1579576205183168513/retweets"
+                  },
+                  {
+                    "userinteractioncount": "0",
+                    "interactiontype": "https://schema.org/InteractAction",
+                    "name": "Quotes",
+                    "url": "https://twitter.com/ajassy/status/1579576205183168513/retweets/with_comments"
+                  },
+                  {
+                    "userinteractioncount": "30",
+                    "interactiontype": "https://schema.org/InteractAction",
+                    "name": "Replies",
+                    "url": "https://twitter.com/ajassy/status/1579576205183168513"
+                  },
+                  {
+                    "userinteractioncount": "317",
+                    "interactiontype": "https://schema.org/LikeAction",
+                    "name": "Likes",
+                    "url": "https://twitter.com/ajassy/status/1579320499506933760/likes"
+                  },
+                  {
+                    "userinteractioncount": "53",
+                    "interactiontype": "https://schema.org/InteractAction",
+                    "name": "Retweets",
+                    "url": "https://twitter.com/ajassy/status/1579320499506933760/retweets"
+                  },
+                  {
+                    "userinteractioncount": "2",
+                    "interactiontype": "https://schema.org/InteractAction",
+                    "name": "Quotes",
+                    "url": "https://twitter.com/ajassy/status/1579320499506933760/retweets/with_comments"
+                  },
+                  {
+                    "userinteractioncount": "34",
+                    "interactiontype": "https://schema.org/InteractAction",
+                    "name": "Replies",
+                    "url": "https://twitter.com/ajassy/status/1579320499506933760"
+                  },
+                  {
+                    "userinteractioncount": "337",
+                    "interactiontype": "https://schema.org/LikeAction",
+                    "name": "Likes",
+                    "url": "https://twitter.com/ajassy/status/1575204073338720256/likes"
+                  },
+                  {
+                    "userinteractioncount": "55",
+                    "interactiontype": "https://schema.org/InteractAction",
+                    "name": "Retweets",
+                    "url": "https://twitter.com/ajassy/status/1575204073338720256/retweets"
+                  },
+                  {
+                    "userinteractioncount": "9",
+                    "interactiontype": "https://schema.org/InteractAction",
+                    "name": "Quotes",
+                    "url": "https://twitter.com/ajassy/status/1575204073338720256/retweets/with_comments"
+                  },
+                  {
+                    "userinteractioncount": "158",
+                    "interactiontype": "https://schema.org/InteractAction",
+                    "name": "Replies",
+                    "url": "https://twitter.com/ajassy/status/1575204073338720256"
+                  },
+                  {
+                    "userinteractioncount": "391",
+                    "interactiontype": "https://schema.org/LikeAction",
+                    "name": "Likes",
+                    "url": "https://twitter.com/ajassy/status/1574941334695448576/likes"
+                  },
+                  {
+                    "userinteractioncount": "46",
+                    "interactiontype": "https://schema.org/InteractAction",
+                    "name": "Retweets",
+                    "url": "https://twitter.com/ajassy/status/1574941334695448576/retweets"
+                  },
+                  {
+                    "userinteractioncount": "3",
+                    "interactiontype": "https://schema.org/InteractAction",
+                    "name": "Quotes",
+                    "url": "https://twitter.com/ajassy/status/1574941334695448576/retweets/with_comments"
+                  },
+                  {
+                    "userinteractioncount": "41",
+                    "interactiontype": "https://schema.org/InteractAction",
+                    "name": "Replies",
+                    "url": "https://twitter.com/ajassy/status/1574941334695448576"
+                  },
+                  {
+                    "userinteractioncount": "243",
+                    "interactiontype": "https://schema.org/LikeAction",
+                    "name": "Likes",
+                    "url": "https://twitter.com/ajassy/status/1572712933037309952/likes"
+                  },
+                  {
+                    "userinteractioncount": "42",
+                    "interactiontype": "https://schema.org/InteractAction",
+                    "name": "Retweets",
+                    "url": "https://twitter.com/ajassy/status/1572712933037309952/retweets"
+                  },
+                  {
+                    "userinteractioncount": "5",
+                    "interactiontype": "https://schema.org/InteractAction",
+                    "name": "Quotes",
+                    "url": "https://twitter.com/ajassy/status/1572712933037309952/retweets/with_comments"
+                  },
+                  {
+                    "userinteractioncount": "53",
+                    "interactiontype": "https://schema.org/InteractAction",
+                    "name": "Replies",
+                    "url": "https://twitter.com/ajassy/status/1572712933037309952"
+                  },
+                  {
+                    "userinteractioncount": "186",
+                    "interactiontype": "https://schema.org/LikeAction",
+                    "name": "Likes",
+                    "url": "https://twitter.com/ajassy/status/1572569861175545857/likes"
+                  },
+                  {
+                    "userinteractioncount": "23",
+                    "interactiontype": "https://schema.org/InteractAction",
+                    "name": "Retweets",
+                    "url": "https://twitter.com/ajassy/status/1572569861175545857/retweets"
+                  },
+                  {
+                    "userinteractioncount": "3",
+                    "interactiontype": "https://schema.org/InteractAction",
+                    "name": "Quotes",
+                    "url": "https://twitter.com/ajassy/status/1572569861175545857/retweets/with_comments"
+                  },
+                  {
+                    "userinteractioncount": "33",
+                    "interactiontype": "https://schema.org/InteractAction",
+                    "name": "Replies",
+                    "url": "https://twitter.com/ajassy/status/1572569861175545857"
+                  },
+                  {
+                    "userinteractioncount": "772",
+                    "interactiontype": "https://schema.org/LikeAction",
+                    "name": "Likes",
+                    "url": "https://twitter.com/ajassy/status/1570568373213491200/likes"
+                  },
+                  {
+                    "userinteractioncount": "92",
+                    "interactiontype": "https://schema.org/InteractAction",
+                    "name": "Retweets",
+                    "url": "https://twitter.com/ajassy/status/1570568373213491200/retweets"
+                  },
+                  {
+                    "userinteractioncount": "23",
+                    "interactiontype": "https://schema.org/InteractAction",
+                    "name": "Quotes",
+                    "url": "https://twitter.com/ajassy/status/1570568373213491200/retweets/with_comments"
+                  },
+                  {
+                    "userinteractioncount": "348",
+                    "interactiontype": "https://schema.org/InteractAction",
+                    "name": "Replies",
+                    "url": "https://twitter.com/ajassy/status/1570568373213491200"
+                  },
+                  {
+                    "userinteractioncount": "189",
+                    "interactiontype": "https://schema.org/LikeAction",
+                    "name": "Likes",
+                    "url": "https://twitter.com/ajassy/status/1570119739120455680/likes"
+                  },
+                  {
+                    "userinteractioncount": "18",
+                    "interactiontype": "https://schema.org/InteractAction",
+                    "name": "Retweets",
+                    "url": "https://twitter.com/ajassy/status/1570119739120455680/retweets"
+                  },
+                  {
+                    "userinteractioncount": "1",
+                    "interactiontype": "https://schema.org/InteractAction",
+                    "name": "Quotes",
+                    "url": "https://twitter.com/ajassy/status/1570119739120455680/retweets/with_comments"
+                  },
+                  {
+                    "userinteractioncount": "34",
+                    "interactiontype": "https://schema.org/InteractAction",
+                    "name": "Replies",
+                    "url": "https://twitter.com/ajassy/status/1570119739120455680"
+                  },
+                  {
+                    "userinteractioncount": "281",
+                    "interactiontype": "https://schema.org/LikeAction",
+                    "name": "Likes",
+                    "url": "https://twitter.com/ajassy/status/1567967528668000256/likes"
+                  },
+                  {
+                    "userinteractioncount": "18",
+                    "interactiontype": "https://schema.org/InteractAction",
+                    "name": "Retweets",
+                    "url": "https://twitter.com/ajassy/status/1567967528668000256/retweets"
+                  },
+                  {
+                    "userinteractioncount": "2",
+                    "interactiontype": "https://schema.org/InteractAction",
+                    "name": "Quotes",
+                    "url": "https://twitter.com/ajassy/status/1567967528668000256/retweets/with_comments"
+                  },
+                  {
+                    "userinteractioncount": "39",
+                    "interactiontype": "https://schema.org/InteractAction",
+                    "name": "Replies",
+                    "url": "https://twitter.com/ajassy/status/1567967528668000256"
+                  },
+                  {
+                    "userinteractioncount": "266",
+                    "interactiontype": "https://schema.org/LikeAction",
+                    "name": "Likes",
+                    "url": "https://twitter.com/ajassy/status/1566436262038622208/likes"
+                  },
+                  {
+                    "userinteractioncount": "19",
+                    "interactiontype": "https://schema.org/InteractAction",
+                    "name": "Retweets",
+                    "url": "https://twitter.com/ajassy/status/1566436262038622208/retweets"
+                  },
+                  {
+                    "userinteractioncount": "4",
+                    "interactiontype": "https://schema.org/InteractAction",
+                    "name": "Quotes",
+                    "url": "https://twitter.com/ajassy/status/1566436262038622208/retweets/with_comments"
+                  },
+                  {
+                    "userinteractioncount": "43",
+                    "interactiontype": "https://schema.org/InteractAction",
+                    "name": "Replies",
+                    "url": "https://twitter.com/ajassy/status/1566436262038622208"
+                  },
+                  {
+                    "userinteractioncount": "183",
+                    "interactiontype": "https://schema.org/LikeAction",
+                    "name": "Likes",
+                    "url": "https://twitter.com/ajassy/status/1562883320119447552/likes"
+                  },
+                  {
+                    "userinteractioncount": "36",
+                    "interactiontype": "https://schema.org/InteractAction",
+                    "name": "Retweets",
+                    "url": "https://twitter.com/ajassy/status/1562883320119447552/retweets"
+                  },
+                  {
+                    "userinteractioncount": "6",
+                    "interactiontype": "https://schema.org/InteractAction",
+                    "name": "Quotes",
+                    "url": "https://twitter.com/ajassy/status/1562883320119447552/retweets/with_comments"
+                  },
+                  {
+                    "userinteractioncount": "62",
+                    "interactiontype": "https://schema.org/InteractAction",
+                    "name": "Replies",
+                    "url": "https://twitter.com/ajassy/status/1562883320119447552"
+                  },
+                  {
+                    "userinteractioncount": "913",
+                    "interactiontype": "https://schema.org/LikeAction",
+                    "name": "Likes",
+                    "url": "https://twitter.com/ajassy/status/1559572641974870016/likes"
+                  },
+                  {
+                    "userinteractioncount": "85",
+                    "interactiontype": "https://schema.org/InteractAction",
+                    "name": "Retweets",
+                    "url": "https://twitter.com/ajassy/status/1559572641974870016/retweets"
+                  },
+                  {
+                    "userinteractioncount": "7",
+                    "interactiontype": "https://schema.org/InteractAction",
+                    "name": "Quotes",
+                    "url": "https://twitter.com/ajassy/status/1559572641974870016/retweets/with_comments"
+                  },
+                  {
+                    "userinteractioncount": "80",
+                    "interactiontype": "https://schema.org/InteractAction",
+                    "name": "Replies",
+                    "url": "https://twitter.com/ajassy/status/1559572641974870016"
+                  },
+                  {
+                    "userinteractioncount": "229",
+                    "interactiontype": "https://schema.org/LikeAction",
+                    "name": "Likes",
+                    "url": "https://twitter.com/ajassy/status/1556025596118896641/likes"
+                  },
+                  {
+                    "userinteractioncount": "16",
+                    "interactiontype": "https://schema.org/InteractAction",
+                    "name": "Retweets",
+                    "url": "https://twitter.com/ajassy/status/1556025596118896641/retweets"
+                  },
+                  {
+                    "userinteractioncount": "2",
+                    "interactiontype": "https://schema.org/InteractAction",
+                    "name": "Quotes",
+                    "url": "https://twitter.com/ajassy/status/1556025596118896641/retweets/with_comments"
+                  },
+                  {
+                    "userinteractioncount": "65",
+                    "interactiontype": "https://schema.org/InteractAction",
+                    "name": "Replies",
+                    "url": "https://twitter.com/ajassy/status/1556025596118896641"
+                  },
+                  {
+                    "userinteractioncount": "268",
+                    "interactiontype": "https://schema.org/LikeAction",
+                    "name": "Likes",
+                    "url": "https://twitter.com/ajassy/status/1554520496833585153/likes"
+                  },
+                  {
+                    "userinteractioncount": "21",
+                    "interactiontype": "https://schema.org/InteractAction",
+                    "name": "Retweets",
+                    "url": "https://twitter.com/ajassy/status/1554520496833585153/retweets"
+                  },
+                  {
+                    "userinteractioncount": "5",
+                    "interactiontype": "https://schema.org/InteractAction",
+                    "name": "Quotes",
+                    "url": "https://twitter.com/ajassy/status/1554520496833585153/retweets/with_comments"
+                  },
+                  {
+                    "userinteractioncount": "70",
+                    "interactiontype": "https://schema.org/InteractAction",
+                    "name": "Replies",
+                    "url": "https://twitter.com/ajassy/status/1554520496833585153"
+                  },
+                  {
+                    "userinteractioncount": "200",
+                    "interactiontype": "https://schema.org/LikeAction",
+                    "name": "Likes",
+                    "url": "https://twitter.com/ajassy/status/1554206731181314049/likes"
+                  },
+                  {
+                    "userinteractioncount": "23",
+                    "interactiontype": "https://schema.org/InteractAction",
+                    "name": "Retweets",
+                    "url": "https://twitter.com/ajassy/status/1554206731181314049/retweets"
+                  },
+                  {
+                    "userinteractioncount": "6",
+                    "interactiontype": "https://schema.org/InteractAction",
+                    "name": "Quotes",
+                    "url": "https://twitter.com/ajassy/status/1554206731181314049/retweets/with_comments"
+                  },
+                  {
+                    "userinteractioncount": "44",
+                    "interactiontype": "https://schema.org/InteractAction",
+                    "name": "Replies",
+                    "url": "https://twitter.com/ajassy/status/1554206731181314049"
+                  },
+                  {
+                    "userinteractioncount": "942",
+                    "interactiontype": "https://schema.org/LikeAction",
+                    "name": "Likes",
+                    "url": "https://twitter.com/ajassy/status/1550116510844129283/likes"
+                  },
+                  {
+                    "userinteractioncount": "129",
+                    "interactiontype": "https://schema.org/InteractAction",
+                    "name": "Retweets",
+                    "url": "https://twitter.com/ajassy/status/1550116510844129283/retweets"
+                  },
+                  {
+                    "userinteractioncount": "29",
+                    "interactiontype": "https://schema.org/InteractAction",
+                    "name": "Quotes",
+                    "url": "https://twitter.com/ajassy/status/1550116510844129283/retweets/with_comments"
+                  },
+                  {
+                    "userinteractioncount": "97",
+                    "interactiontype": "https://schema.org/InteractAction",
+                    "name": "Replies",
+                    "url": "https://twitter.com/ajassy/status/1550116510844129283"
+                  },
+                  {
+                    "userinteractioncount": "292",
+                    "interactiontype": "https://schema.org/LikeAction",
+                    "name": "Likes",
+                    "url": "https://twitter.com/ajassy/status/1547656716422066182/likes"
+                  },
+                  {
+                    "userinteractioncount": "39",
+                    "interactiontype": "https://schema.org/InteractAction",
+                    "name": "Retweets",
+                    "url": "https://twitter.com/ajassy/status/1547656716422066182/retweets"
+                  },
+                  {
+                    "userinteractioncount": "5",
+                    "interactiontype": "https://schema.org/InteractAction",
+                    "name": "Quotes",
+                    "url": "https://twitter.com/ajassy/status/1547656716422066182/retweets/with_comments"
+                  },
+                  {
+                    "userinteractioncount": "93",
+                    "interactiontype": "https://schema.org/InteractAction",
+                    "name": "Replies",
+                    "url": "https://twitter.com/ajassy/status/1547656716422066182"
+                  }
+                ],
+                "metatags": [
+                  {
+                    "og:image": "https://pbs.twimg.com/profile_images/1412402561605259265/D9bvjpz7_normal.jpg",
+                    "theme-color": "#ffffff",
+                    "og:type": "profile",
+                    "og:site_name": "Twitter",
+                    "al:ios:app_name": "Twitter",
+                    "apple-mobile-web-app-title": "Twitter",
+                    "og:title": "Andy Jassy (@ajassy) / Twitter",
+                    "al:android:package": "com.twitter.android",
+                    "al:ios:url": "twitter://user?screen_name=ajassy",
+                    "og:description": "Lead Amazon, married and father of two kids, big sports/music/film fan, experienced buffalo wings eater. Go Kraken!",
+                    "al:ios:app_store_id": "333903271",
+                    "facebook-domain-verification": "x6sdcc8b5ju3bh8nbm59eswogvg6t1",
+                    "al:android:url": "twitter://user?screen_name=ajassy",
+                    "fb:app_id": "2231777543",
+                    "apple-mobile-web-app-status-bar-style": "white",
+                    "viewport": "width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0,viewport-fit=cover",
+                    "mobile-web-app-capable": "yes",
+                    "og:url": "https://twitter.com/ajassy",
+                    "al:android:app_name": "Twitter"
+                  }
+                ],
+                "videoobject": [
+                  {
+                    "duration": "PT0H0M22S",
+                    "embedurl": "https://platform.twitter.com/embed/Tweet.html?dnt=false&embedId=twitter-widget-1&frame=false&hideCard=false&hideThread=false&lang=en&id=1625194865175961600",
+                    "contenturl": "https://video.twimg.com/ext_tw_video/1625174362784690184/pu/vid/1920x1080/KdknTki-tOHMpcD7.mp4?tag=14",
+                    "uploaddate": "2023-02-13T18:07:05.000Z",
+                    "name": "@aicha2evans's video Tweet",
+                    "description": "Embedded video",
+                    "caption": "Embedded video",
+                    "thumbnailurl": "https://pbs.twimg.com/ext_tw_video_thumb/1625174362784690184/pu/img/hZT0dMHzNDTL17uh.jpg"
+                  },
+                  {
+                    "duration": "PT0H1M8S",
+                    "embedurl": "https://platform.twitter.com/embed/Tweet.html?dnt=false&embedId=twitter-widget-1&frame=false&hideCard=false&hideThread=false&lang=en&id=1575204073338720256",
+                    "contenturl": "https://video.twimg.com/ext_tw_video/1575203587869020160/pu/vid/1280x720/W6FTdMXCs8fvmrCl.mp4?tag=12",
+                    "uploaddate": "2022-09-28T19:21:31.000Z",
+                    "name": "@ajassy's video Tweet",
+                    "description": "Embedded video",
+                    "caption": "Embedded video",
+                    "thumbnailurl": "https://pbs.twimg.com/ext_tw_video_thumb/1575203587869020160/pu/img/7ZgOqA1LtbR0lGBQ.jpg"
+                  },
+                  {
+                    "duration": "PT0H0M15S",
+                    "embedurl": "https://platform.twitter.com/embed/Tweet.html?dnt=false&embedId=twitter-widget-1&frame=false&hideCard=false&hideThread=false&lang=en&id=1554497665072873475",
+                    "contenturl": "https://video.twimg.com/ext_tw_video/1554497407131467778/pu/vid/720x900/dUhYsqFHN7y0Glea.mp4?tag=12",
+                    "uploaddate": "2022-08-02T16:01:39.000Z",
+                    "name": "@EW's video Tweet",
+                    "description": "Embedded video",
+                    "caption": "Embedded video",
+                    "thumbnailurl": "https://pbs.twimg.com/ext_tw_video_thumb/1554497407131467778/pu/img/ZIYhib4FulfYvlfL.jpg"
+                  }
+                ],
+                "collection": [
+                  {
+                    "name": "Profile Tweets"
+                  }
+                ],
+                "creativework": [
+                  {
+                    "name": "Expanded Tweet URLs",
+                    "url": "https://t.co/quC5niufmW"
+                  },
+                  {
+                    "name": "Expanded Tweet URLs",
+                    "url": "https://t.co/TemBCTRmjQ"
+                  },
+                  {
+                    "name": "Expanded Tweet URLs",
+                    "url": "https://t.co/9kdXctk2hQ"
+                  },
+                  {
+                    "name": "Expanded Tweet URLs",
+                    "url": "https://t.co/w938BzCAdG"
+                  },
+                  {
+                    "name": "Expanded Tweet URLs",
+                    "url": "https://t.co/PYZPtKYdYs"
+                  },
+                  {
+                    "name": "Expanded Tweet URLs",
+                    "url": "https://t.co/IoHWxEZrJY"
+                  },
+                  {
+                    "name": "Expanded Tweet URLs",
+                    "url": "https://t.co/aQjfJ5vcsF"
+                  },
+                  {
+                    "name": "Expanded Tweet URLs",
+                    "url": "https://t.co/Xfo4qCV3zw"
+                  },
+                  {
+                    "name": "Expanded Tweet URLs",
+                    "url": "https://t.co/8t8lzgSO9E"
+                  },
+                  {
+                    "name": "Expanded Tweet URLs",
+                    "url": "https://t.co/n2guUDKg4F"
+                  },
+                  {
+                    "name": "Expanded Tweet URLs",
+                    "url": "https://t.co/x5X3fXjZ1J"
+                  },
+                  {
+                    "name": "Expanded Tweet URLs",
+                    "url": "https://t.co/VELFBFKMwr"
+                  },
+                  {
+                    "name": "Expanded Tweet URLs",
+                    "url": "https://t.co/b65bmXnFR7"
+                  },
+                  {
+                    "name": "Expanded Tweet URLs",
+                    "url": "https://t.co/4MkICPYPE7"
+                  },
+                  {
+                    "name": "Expanded Tweet URLs",
+                    "url": "https://t.co/HILRmZZSmf"
+                  },
+                  {
+                    "name": "Expanded Tweet URLs",
+                    "url": "https://t.co/GOvsm08MQK"
+                  },
+                  {
+                    "name": "Expanded Tweet URLs",
+                    "url": "https://t.co/K0NwKshw1G"
+                  },
+                  {
+                    "name": "Expanded Tweet URLs",
+                    "url": "https://t.co/oltzwllE0B"
+                  },
+                  {
+                    "name": "Expanded Tweet URLs",
+                    "url": "https://t.co/onnmgR8lI7"
+                  },
+                  {
+                    "name": "Expanded Tweet URLs",
+                    "url": "https://t.co/PJtOM0Hstm"
+                  },
+                  {
+                    "name": "Expanded Tweet URLs",
+                    "url": "https://t.co/c5aTSLJHeh"
+                  },
+                  {
+                    "name": "Expanded Tweet URLs",
+                    "url": "https://t.co/ue2l1vWAjL"
+                  },
+                  {
+                    "name": "Expanded Tweet URLs",
+                    "url": "https://t.co/kHyWo8aeJz"
+                  },
+                  {
+                    "name": "Expanded Tweet URLs",
+                    "url": "https://t.co/CBKUcMSbiu"
+                  },
+                  {
+                    "name": "Expanded Tweet URLs",
+                    "url": "https://t.co/oWwWT0DHk9"
+                  },
+                  {
+                    "name": "Expanded Tweet URLs",
+                    "url": "https://t.co/iLiv6WrwNW"
+                  },
+                  {
+                    "name": "Expanded Tweet URLs",
+                    "url": "https://t.co/KRLh1TwWAv"
+                  },
+                  {
+                    "name": "Expanded Tweet URLs",
+                    "url": "https://t.co/GsCAcFjHOn"
+                  },
+                  {
+                    "name": "Expanded Tweet URLs",
+                    "url": "https://t.co/zeJJHnboct"
+                  },
+                  {
+                    "name": "Expanded Tweet URLs",
+                    "url": "https://t.co/3zcxU70YSY"
+                  }
+                ],
+                "cse_image": [
+                  {
+                    "src": "https://pbs.twimg.com/profile_images/1412402561605259265/D9bvjpz7_normal.jpg"
+                  }
+                ],
+                "socialmediaposting": [
+                  {
+                    "identifier": "1643642188876886017",
+                    "commentcount": "40",
+                    "articlebody": "Pretty wild to think there was a moment in history when signing Michael Jordan to a shoe contract was considered a risky move. It's an incredible story and am excited for folks to see @AIRMovie,...",
+                    "position": "1",
+                    "datecreated": "2023-04-05T15:50:09.000Z",
+                    "datepublished": "2023-04-05T15:50:09.000Z",
+                    "url": "https://twitter.com/ajassy/status/1643642188876886017"
+                  },
+                  {
+                    "identifier": "1641459023563362306",
+                    "commentcount": "77",
+                    "articlebody": "With over 3K Amazon electric delivery vans from @Rivian now on the road in 500+ cities, we’re seeing great momentum on our EV deployment. To date, 75M packages have been delivered from our...",
+                    "position": "2",
+                    "datecreated": "2023-03-30T15:15:02.000Z",
+                    "datepublished": "2023-03-30T15:15:02.000Z",
+                    "url": "https://twitter.com/ajassy/status/1641459023563362306"
+                  },
+                  {
+                    "identifier": "1638526662701879297",
+                    "commentcount": "68",
+                    "articlebody": "New collaboration with @PaneraBread will let customers, for the first time, use their palm to access MyPanera rewards and pay. One of the many ways Amazon One, our palm recognition service,...",
+                    "position": "3",
+                    "datecreated": "2023-03-22T13:02:53.000Z",
+                    "datepublished": "2023-03-22T13:02:53.000Z",
+                    "url": "https://twitter.com/ajassy/status/1638526662701879297"
+                  },
+                  {
+                    "identifier": "1635649475082612737",
+                    "commentcount": "52",
+                    "articlebody": "Today, we're excited to share a first look at our 3 customer antennas for Project Kuiper, Amazon’s forthcoming low Earth orbit satellite network. Good progress in our mission to bring satellite...",
+                    "position": "4",
+                    "datecreated": "2023-03-14T14:29:58.000Z",
+                    "datepublished": "2023-03-14T14:29:58.000Z",
+                    "url": "https://twitter.com/ajassy/status/1635649475082612737"
+                  },
+                  {
+                    "identifier": "1635120537205891074",
+                    "commentcount": "69",
+                    "articlebody": "Congrats to Sarah Polley and the cast and crew of this powerful film! Well deserved, and so happy for our @MGMStudios and @AmazonStudios teams. #Oscars95",
+                    "position": "5",
+                    "datecreated": "2023-03-13T03:28:09.000Z",
+                    "isbasedon": "https://twitter.com/TheAcademy/status/1635109570233380864",
+                    "datepublished": "2023-03-13T03:28:09.000Z",
+                    "url": "https://twitter.com/ajassy/status/1635120537205891074"
+                  },
+                  {
+                    "identifier": "1630301777185898496",
+                    "commentcount": "120",
+                    "articlebody": "Two Amazon Air cargo planes landed in Istanbul this weekend w/ 100,000 pounds of relief supplies including tents, sleeping bags, blankets & heaters. Thx to our teams & partner orgs for this...",
+                    "position": "6",
+                    "datecreated": "2023-02-27T20:20:07.000Z",
+                    "datepublished": "2023-02-27T20:20:07.000Z",
+                    "url": "https://twitter.com/ajassy/status/1630301777185898496"
+                  },
+                  {
+                    "identifier": "1628410029518000128",
+                    "commentcount": "60",
+                    "articlebody": "Getting great health care is often too difficult and inconvenient. Today, we’re excited to announce that @OneMedical has joined Amazon and our mission to make it dramatically easier for customers...",
+                    "position": "7",
+                    "datecreated": "2023-02-22T15:03:00.000Z",
+                    "datepublished": "2023-02-22T15:03:00.000Z",
+                    "url": "https://twitter.com/ajassy/status/1628410029518000128"
+                  },
+                  {
+                    "identifier": "1625507746648047618",
+                    "commentcount": "56",
+                    "articlebody": "Exciting progress by the Zoox team! First time in history a robotaxi has driven autonomously on open public roads with passengers. Congrats to the team and excited for more milestones to come!",
+                    "position": "8",
+                    "datecreated": "2023-02-14T14:50:21.000Z",
+                    "isbasedon": "https://twitter.com/aicha2evans/status/1625194865175961600",
+                    "datepublished": "2023-02-14T14:50:21.000Z",
+                    "url": "https://twitter.com/ajassy/status/1625507746648047618"
+                  },
+                  {
+                    "identifier": "1622739218207510529",
+                    "commentcount": "164",
+                    "articlebody": "Tragic news out of Turkey and the surrounding region. We’re activating Amazon’s logistics and delivery network to quickly get donated relief items such as blankets, tents, heaters, food,...",
+                    "position": "9",
+                    "datecreated": "2023-02-06T23:29:13.000Z",
+                    "datepublished": "2023-02-06T23:29:13.000Z",
+                    "url": "https://twitter.com/ajassy/status/1622739218207510529"
+                  },
+                  {
+                    "identifier": "1620954323160281089",
+                    "commentcount": "43",
+                    "articlebody": "Well done, Darrell!",
+                    "position": "10",
+                    "datecreated": "2023-02-02T01:16:41.000Z",
+                    "isbasedon": "https://twitter.com/RepGregSteube/status/1620187903388446720",
+                    "datepublished": "2023-02-02T01:16:41.000Z",
+                    "url": "https://twitter.com/ajassy/status/1620954323160281089"
+                  },
+                  {
+                    "identifier": "1617884854460518404",
+                    "commentcount": "179",
+                    "articlebody": "Nearly half of adults take 2 or more medications daily & many find it hard to afford them. Am excited about launching RxPass to help. For just $5 a month, Prime members can fill all their eligible...",
+                    "position": "11",
+                    "datecreated": "2023-01-24T13:59:42.000Z",
+                    "datepublished": "2023-01-24T13:59:42.000Z",
+                    "url": "https://twitter.com/ajassy/status/1617884854460518404"
+                  },
+                  {
+                    "identifier": "1615014827520581632",
+                    "commentcount": "65",
+                    "articlebody": "Thinking today about Dr. King's legacy and the continued work required to build a more just and inclusive world. Progress has been made, but still a long way to go. Something we’ll all need...",
+                    "position": "12",
+                    "datecreated": "2023-01-16T15:55:15.000Z",
+                    "datepublished": "2023-01-16T15:55:15.000Z",
+                    "url": "https://twitter.com/ajassy/status/1615014827520581632"
+                  },
+                  {
+                    "identifier": "1612938396594475008",
+                    "commentcount": "59",
+                    "articlebody": "Excited to be expanding Buy With Prime, letting more merchants offer fast, free delivery on their websites to Prime customers. Early tests show shopper conversion increases an avg of 25% when...",
+                    "position": "13",
+                    "datecreated": "2023-01-10T22:24:15.000Z",
+                    "datepublished": "2023-01-10T22:24:15.000Z",
+                    "url": "https://twitter.com/ajassy/status/1612938396594475008"
+                  },
+                  {
+                    "identifier": "1609207906263760901",
+                    "commentcount": "44",
+                    "articlebody": "Proud of our Thursday Night Football team for making history this season with 4 of most watched telecasts of 2022, 1st time ever a streamer has had programs on this list. Even more proud of...",
+                    "position": "14",
+                    "datecreated": "2022-12-31T15:20:37.000Z",
+                    "isbasedon": "https://twitter.com/Variety/status/1608903244977250304",
+                    "datepublished": "2022-12-31T15:20:37.000Z",
+                    "url": "https://twitter.com/ajassy/status/1609207906263760901"
+                  },
+                  {
+                    "identifier": "1605227280691003392",
+                    "commentcount": "79",
+                    "articlebody": "Love seeing notes like this from customers who see our @Rivian EV delivery vans out and about. Excited to share that we just hit the 10 millionth package delivered since our first Rivian EV...",
+                    "position": "15",
+                    "datecreated": "2022-12-20T15:43:02.000Z",
+                    "isbasedon": "https://twitter.com/jazzwithless/status/1604641965076664320",
+                    "datepublished": "2022-12-20T15:43:02.000Z",
+                    "url": "https://twitter.com/ajassy/status/1605227280691003392"
+                  },
+                  {
+                    "identifier": "1603792146020339712",
+                    "commentcount": "28",
+                    "articlebody": "Loved meeting our special group of Amazon Prime members we invited to last night’s Thursday Night Football game. Thank you to the millions of fans who watch @NFLonPrime every week...",
+                    "position": "16",
+                    "datecreated": "2022-12-16T16:40:19.000Z",
+                    "datepublished": "2022-12-16T16:40:19.000Z",
+                    "url": "https://twitter.com/ajassy/status/1603792146020339712"
+                  },
+                  {
+                    "identifier": "1600299482494939136",
+                    "commentcount": "48",
+                    "articlebody": "Am excited to see HBO Max back on @PrimeVideo. It’s great for Prime customers, and we continue to work hard to make Amazon an easy one stop shop for customers to enjoy the best and widest...",
+                    "position": "17",
+                    "datecreated": "2022-12-07T01:21:43.000Z",
+                    "datepublished": "2022-12-07T01:21:43.000Z",
+                    "url": "https://twitter.com/ajassy/status/1600299482494939136"
+                  },
+                  {
+                    "identifier": "1591081811161264130",
+                    "commentcount": "105",
+                    "articlebody": "Throughout history, brave men and women have answered the call of duty when they’ve been needed most. Thank you to our over 50k Amazon military veterans and spouses, and all who have served....",
+                    "position": "18",
+                    "datecreated": "2022-11-11T14:53:59.000Z",
+                    "datepublished": "2022-11-11T14:53:59.000Z",
+                    "url": "https://twitter.com/ajassy/status/1591081811161264130"
+                  },
+                  {
+                    "identifier": "1587449674277191680",
+                    "commentcount": "259",
+                    "articlebody": "Excited about meaningfully enhancing our music benefit for Prime members. Starting today, Prime members can now shuffle play more than 100 million songs (up from 2 million) on @AmazonMusic,...",
+                    "position": "19",
+                    "datecreated": "2022-11-01T14:21:10.000Z",
+                    "datepublished": "2022-11-01T14:21:10.000Z",
+                    "url": "https://twitter.com/ajassy/status/1587449674277191680"
+                  },
+                  {
+                    "identifier": "1583090508943200256",
+                    "commentcount": "96",
+                    "articlebody": "Loved visiting our Boston Robotics center, where our team is working hard on inventing robotics that help keep our employees safe and improve delivery for our customers. Excited about what...",
+                    "position": "20",
+                    "datecreated": "2022-10-20T13:39:24.000Z",
+                    "datepublished": "2022-10-20T13:39:24.000Z",
+                    "url": "https://twitter.com/ajassy/status/1583090508943200256"
+                  },
+                  {
+                    "identifier": "1582173599250931712",
+                    "commentcount": "52",
+                    "articlebody": "Proud of how Amazon continues to help in times of urgent need…thx to the collective Amazonians who are making this happen!",
+                    "position": "21",
+                    "datecreated": "2022-10-18T00:55:56.000Z",
+                    "datepublished": "2022-10-18T00:55:56.000Z",
+                    "url": "https://twitter.com/ajassy/status/1582173599250931712"
+                  },
+                  {
+                    "identifier": "1580229970135506945",
+                    "commentcount": "54",
+                    "articlebody": "Nearly impossible to imagine what it would be like to flee your country & have to start over… to help millions of Ukrainians who now face this & those still in the country, we are offering...",
+                    "position": "22",
+                    "datecreated": "2022-10-12T16:12:38.000Z",
+                    "datepublished": "2022-10-12T16:12:38.000Z",
+                    "url": "https://twitter.com/ajassy/status/1580229970135506945"
+                  },
+                  {
+                    "identifier": "1579785436243070977",
+                    "commentcount": "96",
+                    "articlebody": "Excited to be kicking off the holiday season early this year for our Prime members. Prime Early Access sale starts today...",
+                    "position": "23",
+                    "datecreated": "2022-10-11T10:46:13.000Z",
+                    "datepublished": "2022-10-11T10:46:13.000Z",
+                    "url": "https://twitter.com/ajassy/status/1579785436243070977"
+                  },
+                  {
+                    "identifier": "1579576205183168513",
+                    "commentcount": "30",
+                    "articlebody": "Enjoyed being in Dartford today visiting one of our 30 Amazon fulfillment centers here in the UK (+80 across Europe). Very impressed by the site leadership & thankful for the chance to meet...",
+                    "position": "24",
+                    "datecreated": "2022-10-10T20:54:49.000Z",
+                    "datepublished": "2022-10-10T20:54:49.000Z",
+                    "url": "https://twitter.com/ajassy/status/1579576205183168513"
+                  },
+                  {
+                    "identifier": "1579320499506933760",
+                    "commentcount": "34",
+                    "articlebody": "Amazon is committing €1 billion to further electrify & decarbonize our transportation network across Europe. Will help us shift further away from traditional fossil fuels & scale innovation....",
+                    "position": "25",
+                    "datecreated": "2022-10-10T03:58:44.000Z",
+                    "datepublished": "2022-10-10T03:58:44.000Z",
+                    "url": "https://twitter.com/ajassy/status/1579320499506933760"
+                  },
+                  {
+                    "identifier": "1575204073338720256",
+                    "commentcount": "158",
+                    "articlebody": "Great Amazon Devices event today... here’s a look at the new products we announced and how they further our vision for ambient intelligence—technology that’s there for customers when...",
+                    "position": "26",
+                    "datecreated": "2022-09-28T19:21:31.000Z",
+                    "datepublished": "2022-09-28T19:21:31.000Z",
+                    "url": "https://twitter.com/ajassy/status/1575204073338720256"
+                  },
+                  {
+                    "identifier": "1574941334695448576",
+                    "commentcount": "41",
+                    "articlebody": "Thinking of everyone in Florida right now... we have activated our teams to prepare relief items to send to Florida when Hurricane Ian makes landfall. https://aboutamazon.com/news/community/amazon-...",
+                    "position": "27",
+                    "datecreated": "2022-09-28T01:57:29.000Z",
+                    "datepublished": "2022-09-28T01:57:29.000Z",
+                    "url": "https://twitter.com/ajassy/status/1574941334695448576"
+                  },
+                  {
+                    "identifier": "1572712933037309952",
+                    "commentcount": "53",
+                    "articlebody": "Hurricane Fiona has left many in Puerto Rico without electricity, shelter & clean water. Amazon has activated our Disaster Relief Hub in Atlanta where hundreds of thousands of much-needed items...",
+                    "position": "28",
+                    "datecreated": "2022-09-21T22:22:37.000Z",
+                    "datepublished": "2022-09-21T22:22:37.000Z",
+                    "url": "https://twitter.com/ajassy/status/1572712933037309952"
+                  },
+                  {
+                    "identifier": "1572569861175545857",
+                    "commentcount": "33",
+                    "articlebody": "Our first renewable energy project in South America & first solar farms in India & Poland… part of 71 new renewable energy projects. Last yr, Amazon powered 85% of our business w/ renewable...",
+                    "position": "29",
+                    "datecreated": "2022-09-21T12:54:06.000Z",
+                    "datepublished": "2022-09-21T12:54:06.000Z",
+                    "url": "https://twitter.com/ajassy/status/1572569861175545857"
+                  },
+                  {
+                    "identifier": "1570568373213491200",
+                    "commentcount": "348",
+                    "articlebody": "Tonight, we kick off a new era of @NFL Thursday Night Football only on @PrimeVideo. Huge team effort getting to this moment, and we can’t wait to deliver a great experience for Prime members...",
+                    "position": "30",
+                    "datecreated": "2022-09-16T00:20:54.000Z",
+                    "datepublished": "2022-09-16T00:20:54.000Z",
+                    "url": "https://twitter.com/ajassy/status/1570568373213491200"
+                  },
+                  {
+                    "identifier": "1570119739120455680",
+                    "commentcount": "34",
+                    "articlebody": "Amazing story & selfless act by Amazon delivery driver Kevin Rivera… grateful to hear everyone is safe and well.",
+                    "position": "31",
+                    "datecreated": "2022-09-14T18:38:11.000Z",
+                    "isbasedon": "https://twitter.com/amazonnews/status/1570118921717682182",
+                    "datepublished": "2022-09-14T18:38:11.000Z",
+                    "url": "https://twitter.com/ajassy/status/1570119739120455680"
+                  },
+                  {
+                    "identifier": "1567967528668000256",
+                    "commentcount": "39",
+                    "articlebody": "Sad day for so many around the world…On behalf of Amazon, sharing our deepest sympathies for the Royal Family and all of those in mourning.",
+                    "position": "32",
+                    "datecreated": "2022-09-08T20:06:04.000Z",
+                    "isbasedon": "https://twitter.com/RoyalFamily/status/1567928275913121792",
+                    "datepublished": "2022-09-08T20:06:04.000Z",
+                    "url": "https://twitter.com/ajassy/status/1567967528668000256"
+                  },
+                  {
+                    "identifier": "1566436262038622208",
+                    "commentcount": "43",
+                    "articlebody": "Congrats team & thanks to all the @PrimeVideo members who tuned in!",
+                    "position": "33",
+                    "datecreated": "2022-09-04T14:41:22.000Z",
+                    "isbasedon": "https://twitter.com/Variety/status/1566145815839653892",
+                    "datepublished": "2022-09-04T14:41:22.000Z",
+                    "url": "https://twitter.com/ajassy/status/1566436262038622208"
+                  },
+                  {
+                    "identifier": "1562883320119447552",
+                    "commentcount": "62",
+                    "articlebody": "Amazon continues to invest in range of new technologies to get to net-zero carbon by 2040. Excited about latest step...in 2025, we'll start purchasing ~11K tons of green hydrogen/year -- enough...",
+                    "position": "34",
+                    "datecreated": "2022-08-25T19:23:15.000Z",
+                    "datepublished": "2022-08-25T19:23:15.000Z",
+                    "url": "https://twitter.com/ajassy/status/1562883320119447552"
+                  },
+                  {
+                    "identifier": "1559572641974870016",
+                    "commentcount": "80",
+                    "articlebody": "Really enjoyed being with the talented cast and creators at #TheRingsofPower premiere. So much care and passion has gone into this project…looking forward to our Prime customers all over...",
+                    "position": "35",
+                    "datecreated": "2022-08-16T16:07:47.000Z",
+                    "datepublished": "2022-08-16T16:07:47.000Z",
+                    "url": "https://twitter.com/ajassy/status/1559572641974870016"
+                  },
+                  {
+                    "identifier": "1556025596118896641",
+                    "commentcount": "65",
+                    "articlebody": "Fortunate to know Tom Alberg for the last 25 yrs. His professional & civic accomplishments were many. But, what impressed me most was his character—humble, high integrity, missionary, cared...",
+                    "position": "36",
+                    "datecreated": "2022-08-06T21:13:06.000Z",
+                    "datepublished": "2022-08-06T21:13:06.000Z",
+                    "url": "https://twitter.com/ajassy/status/1556025596118896641"
+                  },
+                  {
+                    "identifier": "1554520496833585153",
+                    "commentcount": "70",
+                    "articlebody": "This show truly has been a labor of love for the @PrimeVideo team, with each and every detail obsessed about to bring these characters to life... can’t believe we’re just one month away...",
+                    "position": "37",
+                    "datecreated": "2022-08-02T17:32:22.000Z",
+                    "isbasedon": "https://twitter.com/EW/status/1554497665072873475",
+                    "datepublished": "2022-08-02T17:32:22.000Z",
+                    "url": "https://twitter.com/ajassy/status/1554520496833585153"
+                  },
+                  {
+                    "identifier": "1554206731181314049",
+                    "commentcount": "44",
+                    "articlebody": "Really enjoyed spending time with Al Michaels, @KirkHerbstreit, and the rest of the talented production, on-air, and Amazon TNF team yesterday as part of the @NFLonPrime production kickoff...",
+                    "position": "38",
+                    "datecreated": "2022-08-01T20:45:35.000Z",
+                    "datepublished": "2022-08-01T20:45:35.000Z",
+                    "url": "https://twitter.com/ajassy/status/1554206731181314049"
+                  },
+                  {
+                    "identifier": "1550116510844129283",
+                    "commentcount": "97",
+                    "articlebody": "Excited about first electric @Rivian vans hitting the roads today to deliver for Amazon customers. Love thoughtful design around safety, driver comfort & low emissions to help us reach our...",
+                    "position": "39",
+                    "datecreated": "2022-07-21T13:52:30.000Z",
+                    "datepublished": "2022-07-21T13:52:30.000Z",
+                    "url": "https://twitter.com/ajassy/status/1550116510844129283"
+                  },
+                  {
+                    "identifier": "1547656716422066182",
+                    "commentcount": "93",
+                    "articlebody": "Think customers really enjoyed Prime Day ‘22—our biggest ever w/ 300M+ items sold & $1.7B+ saved by Prime members. Prime Day is a massive team endeavor—thank you, thank you, thank you...",
+                    "position": "40",
+                    "datecreated": "2022-07-14T18:58:09.000Z",
+                    "datepublished": "2022-07-14T18:58:09.000Z",
+                    "url": "https://twitter.com/ajassy/status/1547656716422066182"
+                  }
+                ]
+              }
+            },
+            {
+              "kind": "customsearch#result",
+              "title": "Twitter Careers",
+              "htmlTitle": "\u003cb\u003eTwitter\u003c/b\u003e Careers",
+              "link": "https://careers.twitter.com/",
+              "displayLink": "careers.twitter.com",
+              "snippet": "This page and certain other Twitter sites place and read third party cookies on your browser that are used for non-essential purposes including targeting of ...",
+              "htmlSnippet": "This page and certain other \u003cb\u003eTwitter\u003c/b\u003e sites place and read third party cookies on your browser that are used for non-essential purposes including targeting of&nbsp;...",
+              "cacheId": "tJQoD_GNbbcJ",
+              "formattedUrl": "https://careers.twitter.com/",
+              "htmlFormattedUrl": "https://careers.\u003cb\u003etwitter\u003c/b\u003e.com/",
+              "pagemap": {
+                "metatags": [
+                  {
+                    "og:type": "article",
+                    "twitter:card": "summary",
+                    "viewport": "width=device-width, initial-scale=1",
+                    "twitter:widgets:csp": "on",
+                    "og:title": "Twitter Careers",
+                    "twitter:widgets:new-embed-design": "on",
+                    "og:url": "https://careers.twitter.com/en.html"
+                  }
+                ]
+              }
+            },
+            {
+              "kind": "customsearch#result",
+              "title": "Elon Musk may be temporary CEO of Twitter after deal closes, report ...",
+              "htmlTitle": "Elon Musk may be temporary \u003cb\u003eCEO of Twitter\u003c/b\u003e after deal closes, report ...",
+              "link": "https://www.theverge.com/2022/5/5/23058351/elon-musk-twitter-ceo-temporary-rumor",
+              "displayLink": "www.theverge.com",
+              "snippet": "May 5, 2022 ... Musk hasn't publicly said what will happen to the company's C-suite once the deal is complete, and current Twitter CEO Parag Agrawal — who's ...",
+              "htmlSnippet": "May 5, 2022 \u003cb\u003e...\u003c/b\u003e Musk hasn&#39;t publicly said what will happen to the company&#39;s C-suite once the deal is complete, and \u003cb\u003ecurrent Twitter CEO\u003c/b\u003e Parag Agrawal — who&#39;s&nbsp;...",
+              "cacheId": "H4cMfZU78_YJ",
+              "formattedUrl": "https://www.theverge.com/2022/5/.../elon-musk-twitter-ceo-temporary-rumor",
+              "htmlFormattedUrl": "https://www.theverge.com/2022/5/.../elon-musk-\u003cb\u003etwitter\u003c/b\u003e-\u003cb\u003eceo\u003c/b\u003e-temporary-rumor",
+              "pagemap": {
+                "cse_thumbnail": [
+                  {
+                    "src": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQ3zlrSQPlzAUwmhbKO6BgN8XaK-HvUsjS5gdPBfKZ0ZsEQVZ2Npn4oVHu6",
+                    "width": "311",
+                    "height": "162"
+                  }
+                ],
+                "metatags": [
+                  {
+                    "og:image": "https://cdn.vox-cdn.com/thumbor/OHoI-dSXj_NwE3VotR82JJ_DCGQ=/0x0:2040x1360/1200x628/filters:focal(1020x680:1021x681)/cdn.vox-cdn.com/uploads/chorus_asset/file/23382327/VRG_Illo_STK022_K_Radtke_Musk_Twitter_Upside_Down.jpg",
+                    "twitter:card": "summary_large_image",
+                    "og:type": "article",
+                    "article:published_time": "2022-05-05T13:53:10.449Z",
+                    "og:site_name": "The Verge",
+                    "author": "Jacob Kastrenakes",
+                    "apple-mobile-web-app-title": "Verge",
+                    "og:title": "Elon Musk may be temporary CEO of Twitter after deal closes, report says",
+                    "parsely-author": "Jacob Kastrenakes",
+                    "og:description": "He reportedly told possible backers he’d step in.",
+                    "parsely-title": "Elon Musk may be temporary CEO of Twitter after deal closes, report says",
+                    "parsely-pub-date": "2022-05-05T13:53:10.449Z",
+                    "next-head-count": "31",
+                    "fb:app_id": "549923288395304",
+                    "parsely-type": "post",
+                    "parsely-tags": "verge,front-page,transportation,elon-musk,tech,twitter,news,business,spacex,tesla",
+                    "twitter:site": "@verge",
+                    "article:modified_time": "2022-05-05T13:53:10.449Z",
+                    "viewport": "width=device-width, initial-scale=1, shrink-to-fit=no",
+                    "parsely-link": "https://www.theverge.com/2022/5/5/23058351/elon-musk-twitter-ceo-temporary-rumor",
+                    "parsely-image-url": "https://cdn.vox-cdn.com/thumbor/OHoI-dSXj_NwE3VotR82JJ_DCGQ=/0x0:2040x1360/1200x628/filters:focal(1020x680:1021x681)/cdn.vox-cdn.com/uploads/chorus_asset/file/23382327/VRG_Illo_STK022_K_Radtke_Musk_Twitter_Upside_Down.jpg",
+                    "parsely-section": "front-page",
+                    "og:url": "https://www.theverge.com/2022/5/5/23058351/elon-musk-twitter-ceo-temporary-rumor"
+                  }
+                ],
+                "cse_image": [
+                  {
+                    "src": "https://cdn.vox-cdn.com/thumbor/OHoI-dSXj_NwE3VotR82JJ_DCGQ=/0x0:2040x1360/1200x628/filters:focal(1020x680:1021x681)/cdn.vox-cdn.com/uploads/chorus_asset/file/23382327/VRG_Illo_STK022_K_Radtke_Musk_Twitter_Upside_Down.jpg"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+  recorded_at: Thu, 13 Apr 2023 05:21:30 GMT
+recorded_with: VCR 6.1.0

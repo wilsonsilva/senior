@@ -46,6 +46,22 @@ module Senior
         end
       end
 
+      # Creates a chat completion in OpenAI's API
+      #
+      # @api private
+      #
+      # @param prompt [String] The prompt for which to generate a chat completion TODO: parameters
+      #
+      # @return [String] The created chat completion
+      #
+      def chat(parameters = {})
+        response = open_ai_client.chat(parameters: parameters)
+
+        raise 'No chat completion found' unless response['choices'].any?
+
+        response.dig('choices', 0, 'message', 'content').strip
+      end
+
       private
 
       # Creates an instance of OpenAI::Client
